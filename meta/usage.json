@@ -233,5 +233,44 @@
    "sound:vine-thud",
    "sound:why-are-you-running"
   ]
+ },
+ {
+  "video": "architecture-part5-q5",
+  "items": [
+   "gif:crying_jordan",
+   "gif:oh_no_cat",
+   "greenscreen:absolute_cinema",
+   "greenscreen:aura_farming_boat_kid",
+   "greenscreen:cat_laughing",
+   "greenscreen:coffin_dance",
+   "greenscreen:directed_by_robert_b_weide",
+   "greenscreen:mind_blown",
+   "greenscreen:mission_passed_respect",
+   "greenscreen:sad_hamster_violin",
+   "greenscreen:spongebob_laughing",
+   "greenscreen:this_is_sparta",
+   "photo:ancient-aliens",
+   "photo:charlie-conspiracy-always-sunny-in-phili",
+   "photo:disaster-girl",
+   "photo:drake-hotline-bling",
+   "photo:hide-the-pain-harold",
+   "photo:is-this-a-pigeon",
+   "photo:mg-rollsafe",
+   "photo:spiderman-pointing-at-spiderman",
+   "photo:where-monkey",
+   "sound:anime-wow",
+   "sound:bonk",
+   "sound:cash",
+   "sound:chime",
+   "sound:crickets",
+   "sound:drum-roll",
+   "sound:fbi-open-up",
+   "sound:gta-mission-complete",
+   "sound:mission-passed",
+   "sound:rimshot",
+   "sound:spring",
+   "sound:vine-boom",
+   "sound:windows-xp-error"
+  ]
  }
 ]

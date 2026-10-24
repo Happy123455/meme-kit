@@ -1,5 +1,7 @@
 /* MemeKit overlays — load once in your root composition. Fonts ship with the kit. */
 @font-face { font-family: "MK Archivo Black"; src: url("fonts/ArchivoBlack-Regular.ttf"); }
+/* the meme font: Impact when the system has it, Anton (open, near-identical) otherwise */
+@font-face { font-family: "MK Impact"; src: local("Impact"), url("fonts/Anton-Regular.ttf"); }
 @font-face { font-family: "MK Poppins"; src: url("fonts/Poppins-Bold.ttf"); font-weight: 700; }
 @font-face { font-family: "MK Poppins"; src: url("fonts/Poppins-ExtraBold.ttf"); font-weight: 800; }
 .mk-meme .mk-in { position: absolute; background: #fff; padding: 16px; border-radius: 20px; border: 5px solid #1d2030; box-shadow: 0 24px 60px rgba(20, 22, 40, 0.35); }
@@ -8,9 +10,18 @@
 .mk-img { position: relative; overflow: hidden; border-radius: 10px; }
 .mk-img img { display: block; width: 100%; height: auto; }
 .mk-sheet { border-radius: 10px; background-repeat: no-repeat; background-position: 0% 0%; }
-.mk-lab { position: absolute; display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.05; font-family: "MK Archivo Black";
+.mk-lab { position: absolute; display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.05; font-family: "MK Impact", "MK Archivo Black";
   color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill; text-transform: uppercase; }
-.mk-lab.mk-dark { color: #111; -webkit-text-stroke: 0; font-family: "MK Poppins"; font-weight: 800; text-transform: none; }
+.mk-lab.mk-dark { color: #111; -webkit-text-stroke: 0; font-family: Arial, Helvetica, sans-serif; font-weight: 400; text-transform: none; }
 .mk-gs { position: absolute; transform-origin: 50% 100%; }
 .mk-gs video { width: 100%; height: 100%; object-fit: contain; display: block; }
-.mk-gs.mk-card { background: #fff; padding: 10px; border: 5px solid #1d2030; border-radius: 18px; box-shadow: 0 24px 60px rgba(20, 22, 40, 0.35); }
+.mk-gs.mk-card { box-shadow: 0 22px 60px rgba(0, 0, 0, 0.55); }   /* raw clip, no white frame */
+
+/* classic style: the raw meme image, Impact top/bottom text with a black outline — no white card */
+.mk-classic .mk-in { background: none; padding: 0; border: 0; border-radius: 0; box-shadow: 0 22px 60px rgba(0, 0, 0, 0.6); }
+.mk-classic .mk-img, .mk-classic .mk-sheet { border-radius: 0; }
+.mk-tt { position: absolute; left: 3%; right: 3%; text-align: center; font-family: "MK Impact", sans-serif; font-weight: 400; color: #fff;
+  paint-order: stroke fill; text-transform: uppercase; line-height: 1.02; letter-spacing: .01em; word-spacing: .1em; overflow-wrap: break-word; }
+.mk-tt b { font-weight: 400; }
+.mk-top { top: 2.5%; }
+.mk-bot { bottom: 3%; }

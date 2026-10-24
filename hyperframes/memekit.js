@@ -8,9 +8,9 @@ window.MemeKit = {
       if (!c) continue;
       if (Array.isArray(c)) { run(c); continue; }
       if (c.kind === "card") {
-        const rot = (rnd() - 0.5) * 7, sel = `#${c.id} .mk-in`;
+        const rot = c.flat ? 0 : (rnd() - 0.5) * 7, sel = `#${c.id} .mk-in`;
         if (c.enter === "cut") tl.fromTo(sel, { opacity: 0, rotation: rot }, { opacity: 1, duration: 0.01 }, c.t);
-        else tl.fromTo(sel, { scale: 0.55, opacity: 0, rotation: rot - 6 }, { scale: 1, opacity: 1, rotation: rot, duration: 0.16, ease: "back.out(2.6)" }, c.t);
+        else tl.fromTo(sel, { scale: 0.55, opacity: 0, rotation: c.flat ? 0 : rot - 6 }, { scale: 1, opacity: 1, rotation: rot, duration: 0.16, ease: "back.out(2.6)" }, c.t);
         if (c.sheet) { const S = c.sheet; const n = Math.ceil(c.d * S.fps);
           for (let k = 0; k < n; k++) { const f = k % S.n, col = f % S.cols, row = Math.floor(f / S.cols);
             tl.set(`#${c.id} .mk-sheet`, { backgroundPosition: `${S.cols > 1 ? (col / (S.cols - 1)) * 100 : 0}% ${S.rows > 1 ? (row / (S.rows - 1)) * 100 : 0}%` }, c.t + k / S.fps); } }

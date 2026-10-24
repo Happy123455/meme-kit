@@ -43,10 +43,11 @@ def loudness(path):
 
 class Kit:
     def __init__(self, url_root="assets/memekit", track_base=60, voice=None, voice_lufs=None, under_voice=UNDER_VOICE, seed=7,
-                 strict=False, stem=False):
+                 strict=False, stem=False, meme_style="classic"):
         """voice: path to the narration (or voice_lufs=-23.9) → one meme volume that sits `under_voice` dB below it.
         Without either, assumes a -20 LUFS voice. strict: only ❤️/👍 items. stem: collect audio for render_stem()."""
         self.strict, self.stem, self.events, self.noted = strict, stem, [], set()
+        self.style = meme_style
         self.root = url_root.rstrip("/")
         self.cat = {(i["type"], i["id"]): i for i in json.load(open(os.path.join(KIT, "catalog.json")))["items"]}
         self.n = 0; self.track = track_base; self.used = []; self.rng = random.Random(seed)
@@ -118,7 +119,7 @@ class Kit:
         self.used.append((type, id, t))
 
     # ---------- elements ----------
-    def greenscreen(self, id, start, dur=None, pos="right", w=None, x=None, y=None, vol=None, trim=0.0, mute=False, z=37, pop=None, enter="pop", rate=1.0, skip=0.0):
+    def greenscreen(self, id, start, dur=None, pos="right", w=None, x=None, y=None, vol=None, trim=0.0, mute=False, z=37, pop=None, enter="pop", rate=1.0, skip=0.0, crop=None):
         """Transparent meme clip + its own sound. pos: left/right/center/full. Ends on a hard cut. (trim = gain in dB.)
         The user's dashboard edits are applied here: the trimmed section only, muted clip audio, the paired library sound,
         and the full-screen rule ("full" = always full screen, "window" = never full screen)."""
@@ -130,13 +131,17 @@ class Kit:
         if g.get("screen") == "full" and pos != "full": print(f"memekit: '{id}' is always full screen (user rule) — using pos='full'"); pos = "full"
         if g.get("screen") == "window" and pos == "full": print(f"memekit: '{id}' must never be full screen (user rule) — using pos='center'"); pos, w = "center", w or 900
         mute = mute or bool(g.get("mute"))
-        w = w or (760 if g["alpha"] else 560); h = int(w * g["h"] / g["w"])
+        # crop = (x0, y0, x1, y1) fractions of the clip to show (zoom into the subject of a clip with big empty margins)
+        cx0, cy0, cx1, cy1 = crop or (0, 0, 1, 1)
+        w = w or (760 if g["alpha"] else 560); h = int(w * g["h"] * (cy1 - cy0) / (g["w"] * (cx1 - cx0)))
         if pos == "full": w, h, x, y = W, H, 0, 0
         x = x if x is not None else {"left": 90, "right": W - 90 - w, "center": (W - w) // 2}.get(pos, W - 90 - w)
         y = y if y is not None else (H - h - 60 if g["alpha"] else max(140, (H - h) // 2))  # bottom stays inside the 90% action-safe box
         self.track += 1
-        out = (f'<div id="{e}" class="mk-gs{"" if g["alpha"] else " mk-card"}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px;z-index:{z}">'
-               f'<video id="{e}-v" class="clip" src="{self._u(g["video"])}" muted playsinline data-start="{start:.3f}" data-duration="{d:.3f}" data-media-start="{ms:.3f}"{pr} data-track-index="{self.track}"></video></div>')
+        vw, vh = w / (cx1 - cx0), h / (cy1 - cy0)
+        vst = f' style="position:absolute;left:{-cx0 * vw:.1f}px;top:{-cy0 * vh:.1f}px;width:{vw:.1f}px;height:{vh:.1f}px"' if crop else ""
+        out = (f'<div id="{e}" class="mk-gs{"" if g["alpha"] else " mk-card"}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px;z-index:{z}{";overflow:hidden" if crop else ""}">'
+               f'<video id="{e}-v" class="clip" src="{self._u(g["video"])}" muted playsinline data-start="{start:.3f}" data-duration="{d:.3f}" data-media-start="{ms:.3f}"{pr} data-track-index="{self.track}"{vst}></video></div>')
         if g.get("audio") and not mute and self.stem:
             self.events.append((self._aud(g["audio"]), start, ms, d, self._vol(trim), rate))
         elif g.get("audio") and not mute:
@@ -147,20 +152,27 @@ class Kit:
             out += ("\n" + h) if h else ""
         return out, dict(kind="gs", id=e, t=start, d=d, pop=(pos != "full" if pop is None else pop) and enter != "cut")
 
-    def gif(self, id, start, dur=3.0, pos="right", w=480, cap=None, x=None, y=None, z=35, enter="pop"):
-        """Animated reaction card (sprite sheet stepped frame by frame)."""
+    def gif(self, id, start, dur=3.0, pos="right", w=480, cap=None, x=None, y=None, z=35, enter="pop", top=None, bottom=None, style=None):
+        """Animated reaction meme (sprite sheet stepped frame by frame). Classic style: Impact top/bottom text on the image, no card."""
         g = self.get("gif", id); e = self._id(); h = int(w * g["fh"] / g["fw"]); self._use("gif", id, start)
+        classic = (style or self.style) == "classic"
         x = x if x is not None else {"left": 110, "right": W - 110 - w - 32, "center": (W - w - 32) // 2}[pos]
         y = y if y is not None else max(150, (H - h - 120) // 2)
-        capd = f'<div class="mk-cap" style="width:{w}px">{_rich(cap)}</div>' if cap else ""
-        out = (f'<div id="{e}" class="clip mk-meme" data-start="{start:.3f}" data-duration="{dur:.3f}" style="z-index:{z}"><div class="mk-in" style="left:{x}px;top:{y}px">{capd}'
-               f'<div class="mk-sheet" style="width:{w}px;height:{h}px;background-image:url({self._u(g["sheet"])});background-size:{g["cols"] * 100}% {g["rows"] * 100}%"></div></div></div>')
-        return out, dict(kind="card", id=e, t=start, d=dur, pos=pos, enter=enter, sheet=dict(n=g["frames"], cols=g["cols"], rows=g["rows"], fps=g["fps"]))
+        sheet = f'<div class="mk-sheet" style="width:{w}px;height:{h}px;background-image:url({self._u(g["sheet"])});background-size:{g["cols"] * 100}% {g["rows"] * 100}%"></div>' + f'<img src="{self._u(g["sheet"])}" alt="" style="display:none">'   # preload: renderers wait for <img>, not CSS backgrounds
+        if classic:
+            body = f'<div class="mk-img" style="width:{w}px;height:{h}px">{sheet}{_impact_text(top or cap, bottom, w, h)}</div>'
+        else:
+            body = (f'<div class="mk-cap" style="width:{w}px">{_rich(cap)}</div>' if cap else "") + sheet
+        out = (f'<div id="{e}" class="clip mk-meme{" mk-classic" if classic else ""}" data-start="{start:.3f}" data-duration="{dur:.3f}" style="z-index:{z}">'
+               f'<div class="mk-in" style="left:{x}px;top:{y}px">{body}</div></div>')
+        return out, dict(kind="card", id=e, t=start, d=dur, pos=pos, enter=enter, flat=classic, sheet=dict(n=g["frames"], cols=g["cols"], rows=g["rows"], fps=g["fps"]))
 
-    def photo(self, id, start, dur=3.6, pos="right", w=620, cap=None, labels=None, x=None, y=None, z=35, label_gap=0.9, enter="pop"):
-        """Photo meme: caption on top (modern style) and/or labels in its panels (layouts for known templates)."""
+    def photo(self, id, start, dur=3.6, pos="right", w=620, cap=None, labels=None, x=None, y=None, z=35, label_gap=0.9, enter="pop", top=None, bottom=None, style=None):
+        """Photo meme. Classic style (default): the raw image with Impact top/bottom text (cap = top text) and/or Impact labels
+        in its panels (layouts for known templates), no white card. style="card": the old caption card."""
         p = self.get("photo", id); e = self._id(); ar = p["h"] / p["w"]; self._use("photo", id, start)
-        cap_h = 0 if not cap else 60 + 44 * (len(cap) // 34)
+        classic = (style or self.style) == "classic"
+        cap_h = 0 if (not cap or classic) else 60 + 44 * (len(cap) // 34)
         if w * ar > 800 - cap_h: w = int((800 - cap_h) / ar)
         x = x if x is not None else {"left": 110, "right": W - 110 - w - 32, "center": (W - w - 32) // 2}[pos]
         y = y if y is not None else max(150, int((H - (w * ar + cap_h + 32)) // 2))
@@ -172,10 +184,13 @@ class Kit:
             fs = int(max(22, min(64, fs, (bw - 12) / (max(len(w) for w in re.sub(r"<[^>]+>", "", str(txt)).split() or [""]) * 0.72 + .1))))  # longest word fits the slot
             labs += (f'<div id="{e}-l{i}" class="mk-lab{" mk-dark" if st and st[0] == "dark" else ""}" style="left:{lx}%;top:{ly}%;width:{lw}%;height:{lh}%;font-size:{fs}px">{_rich(txt)}</div>')
             times.append(round(start + 0.35 + i * label_gap, 3))
-        capd = f'<div class="mk-cap" style="width:{w}px">{_rich(cap)}</div>' if cap else ""
-        out = (f'<div id="{e}" class="clip mk-meme" data-start="{start:.3f}" data-duration="{dur:.3f}" style="z-index:{z}"><div class="mk-in" style="left:{x}px;top:{y}px">{capd}'
-               f'<div class="mk-img" style="width:{w}px"><img src="{self._u(p["file"])}" alt="">{labs}</div></div></div>')
-        return out, dict(kind="card", id=e, t=start, d=dur, pos=pos, enter=enter, labs=times)
+        if classic:
+            body = f'<div class="mk-img" style="width:{w}px"><img src="{self._u(p["file"])}" alt="">{labs}{_impact_text(top or cap, bottom, w, w * ar)}</div>'
+        else:
+            body = (f'<div class="mk-cap" style="width:{w}px">{_rich(cap)}</div>' if cap else "") + f'<div class="mk-img" style="width:{w}px"><img src="{self._u(p["file"])}" alt="">{labs}</div>'
+        out = (f'<div id="{e}" class="clip mk-meme{" mk-classic" if classic else ""}" data-start="{start:.3f}" data-duration="{dur:.3f}" style="z-index:{z}">'
+               f'<div class="mk-in" style="left:{x}px;top:{y}px">{body}</div></div>')
+        return out, dict(kind="card", id=e, t=start, d=dur, pos=pos, enter=enter, flat=classic, labs=times)
 
     def sound(self, id, start, vol=None, dur=None, trim=0.0, _paired=False, _skip=0.0):
         """A meme sound (trim = gain in dB). Uses only the section the user selected in the dashboard, if any."""
@@ -262,6 +277,29 @@ class Kit:
 def _load(p, d):
     try: return json.load(open(p))
     except (OSError, ValueError): return d
+
+
+def _impact_size(txt, w, h, lines=2):
+    """Biggest Impact size (px) that fits `txt` in at most `lines` lines across the image, like a real meme generator."""
+    plain = re.sub(r"<[^>]+>", "", str(txt)).upper(); words = plain.split() or [""]
+    for fs in range(int(min(72, w * .13, h * .2)), 21, -1):
+        cpl = w * .92 / (fs * .5)                       # Impact caps ≈ 0.5 em wide
+        if max(len(x) for x in words) * fs * .52 > w * .92: continue
+        n, cur = 1, 0
+        for x in words:
+            if cur and cur + 1 + len(x) > cpl: n, cur = n + 1, len(x)
+            else: cur += (1 if cur else 0) + len(x)
+        if n <= lines: return fs
+    return 22
+
+
+def _impact_text(top, bottom, w, h):
+    out = ""
+    for cls, t in (("mk-top", top), ("mk-bot", bottom)):
+        if not t: continue
+        fs = _impact_size(t, w, h, 3 if len(re.sub(r"<[^>]+>", "", str(t))) > 42 else 2)
+        out += f'<div class="mk-tt {cls}" style="font-size:{fs}px;-webkit-text-stroke:{max(3, round(fs * .14))}px #000">{_rich(t)}</div>'
+    return out
 
 
 def _rich(s):

@@ -99,7 +99,11 @@ kit = mk.Kit(url_root="assets/memekit")
 kit.find(mood="shock")                                    # search by mood / text / type
 html, anim = kit.greenscreen("the_rock_eyebrow_raise", start=12.4, pos="left")    # pos: left/right/center/full; vol=, dur=, w=, x=, y=
 html, anim = kit.gif("pikachu", start=5, dur=3, cap="Me seeing the exam paper:")  # reaction card (sprite sheet stepped)
-html, anim = kit.photo("drake-hotline-bling", start=8, labels=["wrong way", "right way"])   # or cap="caption on top"
+html, anim = kit.photo("drake-hotline-bling", start=8, labels=["wrong way", "right way"])   # labels in the template's panels
+html, anim = kit.photo("ancient-aliens", start=9, top="I'm not saying it was overkill", bottom="but it was overkill")
+# Classic meme style is the default: the raw image + Impact top/bottom text with a black outline, no white card
+# (Kit(meme_style="card") brings back the old caption card). Impact comes from the system; fonts/Anton-Regular.ttf is the open fallback.
+html, anim = kit.greenscreen("aura_farming_boat_kid", 12, x=104, w=520, crop=(.36, .12, 1, .98))   # crop = zoom into the clip's subject
 html, _    = kit.sound("vine-boom", start=8)
 face       = kit.face_entry("pikachu", start=5, dur=3, anchor="driver", size=1.5)  # for Three.js scenes (memekit3d.js)
 ```
