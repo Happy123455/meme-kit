@@ -1,0 +1,7 @@
+_downloads/
+_work/
+.DS_Store
+__pycache__/
+*.pyc
+.hyperframes/
+node_modules/

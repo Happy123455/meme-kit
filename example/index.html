@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="assets/memekit/hyperframes/memekit.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#f4efe6} #root{position:relative;width:1920px;height:1080px}</style>
+</head><body>
+<div id="root" data-composition-id="demo" data-start="0" data-duration="12" data-width="1920" data-height="1080">
+<div id="mk1" class="clip mk-meme" data-start="0.300" data-duration="3.600" style="z-index:35"><div class="mk-in" style="left:110px;top:214px"><div class="mk-img" style="width:620px"><img src="assets/memekit/photos/drake-hotline-bling.jpg" alt=""><div id="mk1-l0" class="mk-lab mk-dark" style="left:52%;top:4%;width:46%;height:42%;font-size:58px">Studying the night before</div><div id="mk1-l1" class="mk-lab mk-dark" style="left:52%;top:54%;width:46%;height:42%;font-size:55px">Watching meme videos instead</div></div></div></div>
+<audio id="mk2" class="clip" src="assets/memekit/leveled/sounds/meme/vine-boom.mp3" data-start="0.433" data-duration="1.250" data-track-index="101" data-volume="0.562"></audio>
+<div id="mk3" class="clip mk-meme" data-start="4.200" data-duration="3.000" style="z-index:35"><div class="mk-in" style="left:1298px;top:245px"><div class="mk-cap" style="width:480px">Me seeing the exam paper:</div><div class="mk-sheet" style="width:480px;height:470px;background-image:url(assets/memekit/gifs/pikachu.jpg);background-size:600% 400%"></div></div></div>
+<audio id="mk4" class="clip" src="assets/memekit/leveled/sounds/meme/gasp.mp3" data-start="4.233" data-duration="1.000" data-track-index="102" data-volume="0.562"></audio>
+<div id="mk5" class="mk-gs" style="left:580px;top:613px;width:760px;height:427px;z-index:37"><video id="mk5-v" class="clip" src="assets/memekit/greenscreen/the_rock_eyebrow_raise.webm" muted playsinline data-start="7.400" data-duration="4.710" data-media-start="0.000" data-track-index="63"></video></div>
+<audio id="mk5-a" class="clip" src="assets/memekit/leveled/greenscreen/the_rock_eyebrow_raise.mp3" data-start="7.400" data-duration="4.710" data-media-start="0.000" data-track-index="103" data-volume="0.562"></audio>
+</div>
+<script>window.MEMEKIT = [{"kind": "card", "id": "mk1", "t": 0.3, "d": 3.6, "pos": "left", "enter": "pop", "labs": [0.65, 1.55]}, {"kind": "card", "id": "mk3", "t": 4.2, "d": 3.0, "pos": "right", "enter": "pop", "sheet": {"n": 22, "cols": 6, "rows": 4, "fps": 12}}, {"kind": "gs", "id": "mk5", "t": 7.4, "d": 4.71, "pop": true}];</script>
+<script src="assets/memekit/hyperframes/memekit.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+MemeKit.animate(tl);
+window.__timelines = window.__timelines || {};
+window.__timelines["demo"] = tl;
+</script>
+</body></html>

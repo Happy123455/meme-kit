@@ -1,0 +1,1915 @@
+{
+ "camfx:anime_speedlines": {
+  "rating": "favorite"
+ },
+ "camfx:bass_boosted": {
+  "rating": "favorite"
+ },
+ "camfx:bonk_drop": {
+  "rating": "favorite"
+ },
+ "camfx:bounce_boing": {
+  "rating": "never"
+ },
+ "camfx:camera_flash": {
+  "rating": "good"
+ },
+ "camfx:cinematic_bars": {
+  "rating": "good"
+ },
+ "camfx:crash_zoom": {
+  "rating": "favorite"
+ },
+ "camfx:dark_zoom": {
+  "rating": "good"
+ },
+ "camfx:deep_fry": {
+  "rating": "meh"
+ },
+ "camfx:dramatic_zoom": {
+  "rating": "never"
+ },
+ "camfx:dream_wavy": {
+  "note": "with that video in my meme folder(mind_blown) both have same audio so use audio of that clip only",
+  "rating": "good"
+ },
+ "camfx:drunk_wobble": {
+  "rating": "meh"
+ },
+ "camfx:dutch_tilt": {
+  "rating": "good"
+ },
+ "camfx:earthquake": {
+  "rating": "favorite"
+ },
+ "camfx:emotional_damage": {
+  "note": "play emotion dmg clip guy meme",
+  "rating": "good"
+ },
+ "camfx:flashbang": {
+  "rating": "favorite"
+ },
+ "camfx:freeze_gray": {
+  "note": "use it when  have to rewind and stop right there wait a min kind of thing",
+  "rating": "meh"
+ },
+ "camfx:glitch_hit": {
+  "rating": "meh"
+ },
+ "camfx:handheld": {
+  "rating": "good"
+ },
+ "camfx:heartbeat": {
+  "rating": "meh"
+ },
+ "camfx:horror_flicker": {
+  "rating": "meh"
+ },
+ "camfx:impact_hit": {
+  "rating": "meh"
+ },
+ "camfx:mind_blown": {
+  "rating": "favorite"
+ },
+ "camfx:rage_vibrate": {
+  "rating": "good"
+ },
+ "camfx:rainbow_party": {
+  "rating": "good"
+ },
+ "camfx:red_alert": {
+  "rating": "good"
+ },
+ "camfx:rgb_split_hit": {
+  "rating": "favorite"
+ },
+ "camfx:sad_mode": {
+  "rating": "good"
+ },
+ "camfx:spotlight": {
+  "note": "use it when you have to focus on something very very specific detial",
+  "rating": "good"
+ },
+ "camfx:sus_red": {
+  "rating": "good"
+ },
+ "camfx:triple_zoom": {
+  "rating": "favorite"
+ },
+ "camfx:tv_off": {
+  "rating": "good"
+ },
+ "camfx:vhs": {
+  "rating": "good"
+ },
+ "camfx:whip_pan_left": {
+  "rating": "good"
+ },
+ "camfx:zoom_punch": {
+  "rating": "favorite"
+ },
+ "gif:amazed": {
+  "rating": "never"
+ },
+ "gif:anime_crying": {
+  "rating": "favorite"
+ },
+ "gif:baby_yoda_sipping": {
+  "rating": "good"
+ },
+ "gif:blinking_white_guy": {
+  "rating": "good"
+ },
+ "gif:bruh": {
+  "rating": "good"
+ },
+ "gif:cat_staring": {
+  "rating": "good"
+ },
+ "gif:cat_thumbs_up": {
+  "rating": "favorite"
+ },
+ "gif:chipmunk": {
+  "rating": "good"
+ },
+ "gif:confused_nick_young": {
+  "rating": "good"
+ },
+ "gif:cringe": {
+  "rating": "favorite"
+ },
+ "gif:crying_jordan": {
+  "rating": "good"
+ },
+ "gif:deal_with_it": {
+  "rating": "good"
+ },
+ "gif:disappointed_fan": {
+  "rating": "favorite"
+ },
+ "gif:dog_confused": {
+  "rating": "favorite"
+ },
+ "gif:elmo_shrug": {
+  "rating": "never"
+ },
+ "gif:evil_laugh": {
+  "rating": "meh"
+ },
+ "gif:facepalm": {
+  "rating": "favorite"
+ },
+ "gif:galaxy_brain": {
+  "rating": "meh"
+ },
+ "gif:hera_pheri": {
+  "rating": "meh"
+ },
+ "gif:hmm_batman": {
+  "rating": "good"
+ },
+ "gif:jethalal": {
+  "rating": "good"
+ },
+ "gif:jim_carrey": {
+  "rating": "meh"
+ },
+ "gif:kermit_dance": {
+  "rating": "never"
+ },
+ "gif:kermit_sipping_tea": {
+  "rating": "never"
+ },
+ "gif:laugh": {
+  "rating": "never"
+ },
+ "gif:leonardo_dicaprio_pointing": {
+  "rating": "good"
+ },
+ "gif:math_kid": {
+  "rating": "favorite"
+ },
+ "gif:math_lady": {
+  "rating": "favorite"
+ },
+ "gif:mic_drop": {
+  "rating": "good"
+ },
+ "gif:michael_jackson_popcorn": {
+  "rating": "good"
+ },
+ "gif:mind_blown": {
+  "rating": "never"
+ },
+ "gif:minion_laughing": {
+  "rating": "never"
+ },
+ "gif:monkey_side": {
+  "rating": "favorite"
+ },
+ "gif:mr_bean_shocked": {
+  "rating": "favorite"
+ },
+ "gif:mr_bean_wait": {
+  "rating": "favorite"
+ },
+ "gif:nervous_drink": {
+  "rating": "good"
+ },
+ "gif:no_god": {
+  "rating": "favorite"
+ },
+ "gif:nodding": {
+  "rating": "never"
+ },
+ "gif:oh_no_cat": {
+  "rating": "good"
+ },
+ "gif:panic_bag": {
+  "rating": "never"
+ },
+ "gif:pikachu": {
+  "rating": "favorite"
+ },
+ "gif:sad_hamster": {
+  "rating": "never"
+ },
+ "gif:shocked_cat": {
+  "rating": "favorite"
+ },
+ "gif:shocked_kid": {
+  "rating": "good"
+ },
+ "gif:shocked_lady": {
+  "rating": "never"
+ },
+ "gif:shrug": {
+  "rating": "meh"
+ },
+ "gif:side_eye_dog": {
+  "rating": "favorite"
+ },
+ "gif:skeleton": {
+  "rating": "favorite"
+ },
+ "gif:slow_clap": {
+  "rating": "good"
+ },
+ "gif:spongebob_confused": {
+  "rating": "good"
+ },
+ "gif:spongebob_mocking": {
+  "rating": "meh"
+ },
+ "gif:steve_harvey_shocked": {
+  "rating": "favorite"
+ },
+ "gif:stonks": {
+  "rating": "good"
+ },
+ "gif:sweating": {
+  "rating": "favorite"
+ },
+ "gif:take_my_money": {
+  "rating": "good"
+ },
+ "gif:thinking_monkey": {
+  "rating": "favorite"
+ },
+ "gif:this_is_fine": {
+  "rating": "favorite"
+ },
+ "gif:travolta": {
+  "rating": "never"
+ },
+ "gif:victory": {
+  "rating": "never"
+ },
+ "gif:wait_what": {
+  "rating": "meh"
+ },
+ "greenscreen:absolute_cinema": {
+  "rating": "favorite"
+ },
+ "greenscreen:among_us": {
+  "rating": "favorite"
+ },
+ "greenscreen:aura_farming_boat_kid": {
+  "rating": "favorite"
+ },
+ "greenscreen:awkward_monkey_puppet": {
+  "rating": "never"
+ },
+ "greenscreen:bernie_i_am_once_again_asking": {
+  "rating": "meh"
+ },
+ "greenscreen:bhai_kya_kar_raha_hai_tu": {
+  "rating": "never"
+ },
+ "greenscreen:black_cat_clapping": {
+  "rating": "favorite"
+ },
+ "greenscreen:bombardiro_crocodilo": {
+  "rating": "meh"
+ },
+ "greenscreen:bonk": {
+  "rating": "good"
+ },
+ "greenscreen:bully_maguire_dance": {
+  "rating": "favorite"
+ },
+ "greenscreen:cat_laughing": {
+  "rating": "favorite"
+ },
+ "greenscreen:cat_thumbs_up": {
+  "rating": "never"
+ },
+ "greenscreen:cat_vibing": {
+  "rating": "favorite"
+ },
+ "greenscreen:chill_guy": {
+  "rating": "good"
+ },
+ "greenscreen:clapping": {
+  "rating": "favorite"
+ },
+ "greenscreen:coffin_dance": {
+  "note": "pick the starting 5 sec",
+  "rating": "favorite",
+  "trim": [
+   4.0,
+   9.0
+  ]
+ },
+ "greenscreen:confused_travolta": {
+  "rating": "favorite"
+ },
+ "greenscreen:crying_cat": {
+  "rating": "favorite"
+ },
+ "greenscreen:dancing_toothless": {
+  "rating": "favorite"
+ },
+ "greenscreen:darth_vader_noooo": {
+  "rating": "good"
+ },
+ "greenscreen:deal_with_it_glasses": {
+  "rating": "never"
+ },
+ "greenscreen:directed_by_robert_b_weide": {
+  "rating": "favorite"
+ },
+ "greenscreen:dog_side_eye": {
+  "rating": "good"
+ },
+ "greenscreen:dramatic_chipmunk": {
+  "rating": "favorite"
+ },
+ "greenscreen:emotional_damage_steven_he": {
+  "rating": "favorite"
+ },
+ "greenscreen:explosion": {
+  "rating": "good"
+ },
+ "greenscreen:gen_z_stare": {
+  "rating": "good"
+ },
+ "greenscreen:giga_chad": {
+  "note": "use it is full screen over lay thing",
+  "rating": "good",
+  "screen": "full"
+ },
+ "greenscreen:goat_screaming": {
+  "rating": "good"
+ },
+ "greenscreen:hamster_stare": {
+  "rating": "favorite"
+ },
+ "greenscreen:hello_there_obi_wan": {
+  "rating": "favorite"
+ },
+ "greenscreen:hold_up_wait_a_minute": {
+  "rating": "favorite"
+ },
+ "greenscreen:huh_cat": {
+  "rating": "favorite"
+ },
+ "greenscreen:ishowspeed_screaming": {
+  "rating": "good"
+ },
+ "greenscreen:jethalal_shocked": {
+  "rating": "meh"
+ },
+ "greenscreen:john_cena": {
+  "rating": "good"
+ },
+ "greenscreen:joseph_vine_boom": {
+  "rating": "good"
+ },
+ "greenscreen:leonardo_dicaprio_clapping": {
+  "rating": "favorite"
+ },
+ "greenscreen:man_laughing": {
+  "rating": "favorite"
+ },
+ "greenscreen:megamind_no": {
+  "rating": "meh"
+ },
+ "greenscreen:michael_jackson_eating_popcorn": {
+  "rating": "good"
+ },
+ "greenscreen:mind_blown": {
+  "rating": "favorite"
+ },
+ "greenscreen:minion_laughing": {
+  "note": "attak",
+  "rating": "good"
+ },
+ "greenscreen:mission_passed_respect": {
+  "rating": "favorite"
+ },
+ "greenscreen:monkey_driving": {
+  "note": "oragutan monkey is driving",
+  "rating": "good"
+ },
+ "greenscreen:monkey_side_eye": {
+  "rating": "favorite"
+ },
+ "greenscreen:moye_moye": {
+  "rating": "never"
+ },
+ "greenscreen:mr_bean_shocked": {
+  "rating": "good"
+ },
+ "greenscreen:mr_incredible_becoming_uncanny": {
+  "rating": "favorite"
+ },
+ "greenscreen:nodding_guy": {
+  "rating": "never"
+ },
+ "greenscreen:oh_no_cringe": {
+  "rating": "meh"
+ },
+ "greenscreen:omg_wow": {
+  "rating": "meh"
+ },
+ "greenscreen:paisa_hi_paisa_hoga_hera_pheri": {
+  "rating": "never"
+ },
+ "greenscreen:rasode_mein_kaun_tha": {
+  "rating": "never"
+ },
+ "greenscreen:sad_hamster_violin": {
+  "rating": "good"
+ },
+ "greenscreen:sad_violin": {
+  "rating": "good"
+ },
+ "greenscreen:shocked_guy_hands_on_head": {
+  "mute": true,
+  "note": "use it with mute this audio in this clip",
+  "rating": "favorite"
+ },
+ "greenscreen:side_eye": {
+  "rating": "good"
+ },
+ "greenscreen:sigma_face": {
+  "mute": true,
+  "note": "( while using this clip mute the voice of this clip  )",
+  "rating": "good"
+ },
+ "greenscreen:skibidi_toilet": {
+  "rating": "good"
+ },
+ "greenscreen:skull_emoji": {
+  "rating": "never"
+ },
+ "greenscreen:spongebob_disappointed": {
+  "rating": "never"
+ },
+ "greenscreen:spongebob_laughing": {
+  "rating": "good"
+ },
+ "greenscreen:streamer_rage_tyler1": {
+  "rating": "favorite"
+ },
+ "greenscreen:surprised_pikachu": {
+  "rating": "never"
+ },
+ "greenscreen:suspicious_cat": {
+  "rating": "favorite"
+ },
+ "greenscreen:the_rock_eyebrow_raise": {
+  "note": "listen at the hight boom sound and play it in a way that boom sound hit when that sus word is played by narrator",
+  "rating": "favorite"
+ },
+ "greenscreen:this_is_fine": {
+  "rating": "never"
+ },
+ "greenscreen:this_is_sparta": {
+  "rating": "good"
+ },
+ "greenscreen:thug_life_glasses": {
+  "rating": "never"
+ },
+ "greenscreen:to_be_continued": {
+  "note": "use it when transition from one part to another",
+  "rating": "favorite"
+ },
+ "greenscreen:tom_shocked_face": {
+  "note": "see what you ca put that on door it full meme with green screen still when he open door add something scary or shoking",
+  "rating": "good"
+ },
+ "greenscreen:tung_tung_tung_sahur": {
+  "rating": "meh"
+ },
+ "greenscreen:uncle_roger_haiyaa": {
+  "rating": "never"
+ },
+ "greenscreen:utha_le_re_baba_hera_pheri": {
+  "rating": "meh"
+ },
+ "greenscreen:wasted_gta": {
+  "note": "make og video slower to give that wasted feeling same as gta 5",
+  "rating": "favorite"
+ },
+ "greenscreen:windows_error": {
+  "rating": "favorite"
+ },
+ "photo:0-days-without-lenny-simpsons": {
+  "rating": "good"
+ },
+ "photo:a-train-hitting-a-school-bus": {
+  "rating": "good"
+ },
+ "photo:absolute-cinema": {
+  "rating": "favorite"
+ },
+ "photo:aj-styles-undertaker": {
+  "rating": "favorite"
+ },
+ "photo:all-my-homies-hate": {
+  "rating": "meh"
+ },
+ "photo:always-has-been": {
+  "rating": "good"
+ },
+ "photo:american-chopper-argument": {
+  "rating": "meh"
+ },
+ "photo:anakin-padme-4-panel": {
+  "rating": "good"
+ },
+ "photo:ancient-aliens": {
+  "rating": "good"
+ },
+ "photo:anime-girl-hiding-from-terminator": {
+  "rating": "favorite"
+ },
+ "photo:bad-luck-brian": {
+  "rating": "meh"
+ },
+ "photo:batman-slapping-robin": {
+  "rating": "good"
+ },
+ "photo:bell-curve": {
+  "rating": "good"
+ },
+ "photo:bernie-i-am-once-again-asking-for-your-s": {
+  "rating": "meh"
+ },
+ "photo:bernie-sanders-once-again-asking": {
+  "rating": "meh"
+ },
+ "photo:bike-fall": {
+  "rating": "favorite"
+ },
+ "photo:blank-nut-button": {
+  "rating": "good"
+ },
+ "photo:boardroom-meeting-suggestion": {
+  "rating": "good"
+ },
+ "photo:buff-doge-vs-cheems": {
+  "rating": "favorite"
+ },
+ "photo:c-mon-do-something": {
+  "rating": "good"
+ },
+ "photo:change-my-mind": {
+  "rating": "meh"
+ },
+ "photo:charlie-conspiracy-always-sunny-in-phili": {
+  "rating": "good"
+ },
+ "photo:clown-applying-makeup": {
+  "rating": "favorite"
+ },
+ "photo:disaster-girl": {
+  "rating": "good"
+ },
+ "photo:distracted-boyfriend": {
+  "rating": "favorite"
+ },
+ "photo:domino-effect": {
+  "rating": "good"
+ },
+ "photo:drake-blank": {
+  "rating": "good"
+ },
+ "photo:drake-hotline-bling": {
+  "rating": "good"
+ },
+ "photo:epic-handshake": {
+  "rating": "favorite"
+ },
+ "photo:evil-kermit": {
+  "rating": "favorite"
+ },
+ "photo:expanding-brain": {
+  "rating": "favorite"
+ },
+ "photo:flex-tape": {
+  "rating": "good"
+ },
+ "photo:friendship-ended": {
+  "rating": "never"
+ },
+ "photo:futurama-fry": {
+  "rating": "favorite"
+ },
+ "photo:george-bush-9-11": {
+  "rating": "meh"
+ },
+ "photo:grandma-finds-the-internet": {
+  "rating": "good"
+ },
+ "photo:grant-gustin-over-grave": {
+  "rating": "favorite"
+ },
+ "photo:grim-reaper-knocking-door": {
+  "rating": "favorite"
+ },
+ "photo:gru-s-plan": {
+  "rating": "good"
+ },
+ "photo:gus-fring-we-are-not-the-same": {
+  "rating": "good"
+ },
+ "photo:hide-the-pain-harold": {
+  "rating": "favorite"
+ },
+ "photo:i-bet-he-s-thinking-about-other-women": {
+  "rating": "favorite"
+ },
+ "photo:i-m-the-captain-now": {
+  "rating": "meh"
+ },
+ "photo:imagination-spongebob": {
+  "rating": "good"
+ },
+ "photo:inhaling-seagull": {
+  "rating": "meh"
+ },
+ "photo:is-this-a-pigeon": {
+  "rating": "favorite"
+ },
+ "photo:is-this-butterfly": {
+  "rating": "favorite"
+ },
+ "photo:laughing-leo": {
+  "rating": "good"
+ },
+ "photo:left-exit-12-off-ramp": {
+  "rating": "good"
+ },
+ "photo:leonardo-dicaprio-cheers": {
+  "rating": "good"
+ },
+ "photo:look-at-me": {
+  "rating": "never"
+ },
+ "photo:marked-safe-from": {
+  "rating": "meh"
+ },
+ "photo:megamind-no-bitches": {
+  "rating": "good"
+ },
+ "photo:megamind-peeking": {
+  "rating": "good"
+ },
+ "photo:mg-3hd": {
+  "rating": "favorite"
+ },
+ "photo:mg-aag": {
+  "rating": "good"
+ },
+ "photo:mg-ackbar": {
+  "rating": "meh"
+ },
+ "photo:mg-afraid": {
+  "rating": "meh"
+ },
+ "photo:mg-agnes": {
+  "rating": "never"
+ },
+ "photo:mg-aint-got-time": {
+  "rating": "never"
+ },
+ "photo:mg-ams": {
+  "rating": "meh"
+ },
+ "photo:mg-ants": {
+  "rating": "meh"
+ },
+ "photo:mg-apcr": {
+  "rating": "meh"
+ },
+ "photo:mg-astronaut": {
+  "rating": "good"
+ },
+ "photo:mg-atis": {
+  "rating": "meh"
+ },
+ "photo:mg-away": {
+  "rating": "meh"
+ },
+ "photo:mg-awesome": {
+  "rating": "meh"
+ },
+ "photo:mg-awesome-awkward": {
+  "rating": "meh"
+ },
+ "photo:mg-awkward": {
+  "rating": "meh"
+ },
+ "photo:mg-awkward-awesome": {
+  "rating": "meh"
+ },
+ "photo:mg-bad": {
+  "rating": "meh"
+ },
+ "photo:mg-badchoice": {
+  "rating": "never"
+ },
+ "photo:mg-balloon": {
+  "rating": "favorite"
+ },
+ "photo:mg-bd": {
+  "rating": "never"
+ },
+ "photo:mg-because": {
+  "rating": "good"
+ },
+ "photo:mg-bender": {
+  "rating": "never"
+ },
+ "photo:mg-bihw": {
+  "rating": "good"
+ },
+ "photo:mg-bilbo": {
+  "rating": "good"
+ },
+ "photo:mg-biw": {
+  "rating": "meh"
+ },
+ "photo:mg-blb": {
+  "rating": "never"
+ },
+ "photo:mg-boat": {
+  "rating": "meh"
+ },
+ "photo:mg-bongo": {
+  "rating": "favorite"
+ },
+ "photo:mg-both": {
+  "rating": "meh"
+ },
+ "photo:mg-box": {
+  "rating": "good"
+ },
+ "photo:mg-bs": {
+  "rating": "good"
+ },
+ "photo:mg-bus": {
+  "rating": "favorite"
+ },
+ "photo:mg-buzz": {
+  "rating": "favorite"
+ },
+ "photo:mg-cake": {
+  "rating": "meh"
+ },
+ "photo:mg-captain": {
+  "rating": "never"
+ },
+ "photo:mg-captain-america": {
+  "rating": "good"
+ },
+ "photo:mg-cb": {
+  "rating": "meh"
+ },
+ "photo:mg-cbb": {
+  "rating": "favorite"
+ },
+ "photo:mg-cbg": {
+  "rating": "meh"
+ },
+ "photo:mg-center": {
+  "rating": "meh"
+ },
+ "photo:mg-ch": {
+  "rating": "meh"
+ },
+ "photo:mg-chair": {
+  "rating": "good"
+ },
+ "photo:mg-cheems": {
+  "rating": "good"
+ },
+ "photo:mg-chosen": {
+  "rating": "favorite"
+ },
+ "photo:mg-cmm": {
+  "rating": "good"
+ },
+ "photo:mg-country": {
+  "rating": "meh"
+ },
+ "photo:mg-crazypills": {
+  "rating": "meh"
+ },
+ "photo:mg-crow": {
+  "rating": "good"
+ },
+ "photo:mg-crowd": {
+  "rating": "favorite"
+ },
+ "photo:mg-cryingfloor": {
+  "rating": "favorite"
+ },
+ "photo:mg-db": {
+  "rating": "favorite"
+ },
+ "photo:mg-dbg": {
+  "rating": "favorite"
+ },
+ "photo:mg-dg": {
+  "rating": "good"
+ },
+ "photo:mg-disastergirl": {
+  "rating": "favorite"
+ },
+ "photo:mg-dodgson": {
+  "rating": "meh"
+ },
+ "photo:mg-doge": {
+  "rating": "meh"
+ },
+ "photo:mg-dragon": {
+  "rating": "favorite"
+ },
+ "photo:mg-drake": {
+  "rating": "meh"
+ },
+ "photo:mg-drunk": {
+  "rating": "never"
+ },
+ "photo:mg-ds": {
+  "rating": "favorite"
+ },
+ "photo:mg-dsm": {
+  "rating": "meh"
+ },
+ "photo:mg-dwight": {
+  "rating": "meh"
+ },
+ "photo:mg-elf": {
+  "rating": "meh"
+ },
+ "photo:mg-elmo": {
+  "rating": "meh"
+ },
+ "photo:mg-ermg": {
+  "rating": "never"
+ },
+ "photo:mg-exit": {
+  "rating": "favorite"
+ },
+ "photo:mg-fa": {
+  "rating": "good"
+ },
+ "photo:mg-facepalm": {
+  "rating": "favorite"
+ },
+ "photo:mg-fbf": {
+  "rating": "never"
+ },
+ "photo:mg-feelsgood": {
+  "rating": "favorite"
+ },
+ "photo:mg-fetch": {
+  "rating": "never"
+ },
+ "photo:mg-fine": {
+  "rating": "good"
+ },
+ "photo:mg-firsttry": {
+  "rating": "never"
+ },
+ "photo:mg-fmr": {
+  "rating": "never"
+ },
+ "photo:mg-friends": {
+  "rating": "favorite"
+ },
+ "photo:mg-fry": {
+  "rating": "favorite"
+ },
+ "photo:mg-fwp": {
+  "rating": "never"
+ },
+ "photo:mg-gandalf": {
+  "rating": "never"
+ },
+ "photo:mg-gb": {
+  "rating": "favorite"
+ },
+ "photo:mg-gears": {
+  "rating": "never"
+ },
+ "photo:mg-genie": {
+  "rating": "never"
+ },
+ "photo:mg-ggg": {
+  "rating": "never"
+ },
+ "photo:mg-glasses": {
+  "rating": "favorite"
+ },
+ "photo:mg-gone": {
+  "rating": "meh"
+ },
+ "photo:mg-grave": {
+  "rating": "favorite"
+ },
+ "photo:mg-gru": {
+  "rating": "favorite"
+ },
+ "photo:mg-grumpycat": {
+  "rating": "good"
+ },
+ "photo:mg-hagrid": {
+  "rating": "meh"
+ },
+ "photo:mg-handshake": {
+  "rating": "favorite"
+ },
+ "photo:mg-happening": {
+  "rating": "meh"
+ },
+ "photo:mg-harold": {
+  "rating": "favorite"
+ },
+ "photo:mg-headaches": {
+  "rating": "favorite"
+ },
+ "photo:mg-hipster": {
+  "rating": "meh"
+ },
+ "photo:mg-home": {
+  "rating": "meh"
+ },
+ "photo:mg-icanhas": {
+  "rating": "meh"
+ },
+ "photo:mg-imsorry": {
+  "rating": "meh"
+ },
+ "photo:mg-inigo": {
+  "rating": "meh"
+ },
+ "photo:mg-interesting": {
+  "rating": "meh"
+ },
+ "photo:mg-ive": {
+  "rating": "meh"
+ },
+ "photo:mg-iw": {
+  "rating": "meh"
+ },
+ "photo:mg-jd": {
+  "rating": "meh"
+ },
+ "photo:mg-jetpack": {
+  "rating": "meh"
+ },
+ "photo:mg-jim": {
+  "rating": "favorite"
+ },
+ "photo:mg-joker": {
+  "rating": "meh"
+ },
+ "photo:mg-jw": {
+  "rating": "meh"
+ },
+ "photo:mg-keanu": {
+  "rating": "meh"
+ },
+ "photo:mg-kermit": {
+  "rating": "meh"
+ },
+ "photo:mg-khaby-lame": {
+  "rating": "favorite"
+ },
+ "photo:mg-kk": {
+  "rating": "meh"
+ },
+ "photo:mg-kombucha": {
+  "rating": "good"
+ },
+ "photo:mg-kramer": {
+  "rating": "meh"
+ },
+ "photo:mg-leo": {
+  "rating": "meh"
+ },
+ "photo:mg-light": {
+  "rating": "good"
+ },
+ "photo:mg-live": {
+  "rating": "meh"
+ },
+ "photo:mg-ll": {
+  "rating": "meh"
+ },
+ "photo:mg-lrv": {
+  "rating": "meh"
+ },
+ "photo:mg-made": {
+  "rating": "meh"
+ },
+ "photo:mg-mb": {
+  "rating": "meh"
+ },
+ "photo:mg-michael-scott": {
+  "rating": "good"
+ },
+ "photo:mg-midwit": {
+  "rating": "favorite"
+ },
+ "photo:mg-millers": {
+  "rating": "favorite"
+ },
+ "photo:mg-mini-keanu": {
+  "rating": "favorite"
+ },
+ "photo:mg-mmm": {
+  "rating": "meh"
+ },
+ "photo:mg-money": {
+  "rating": "good"
+ },
+ "photo:mg-mordor": {
+  "rating": "good"
+ },
+ "photo:mg-morpheus": {
+  "rating": "meh"
+ },
+ "photo:mg-mouth": {
+  "rating": "meh"
+ },
+ "photo:mg-mw": {
+  "rating": "meh"
+ },
+ "photo:mg-nails": {
+  "rating": "meh"
+ },
+ "photo:mg-nice": {
+  "rating": "meh"
+ },
+ "photo:mg-noah": {
+  "rating": "meh"
+ },
+ "photo:mg-noidea": {
+  "rating": "favorite"
+ },
+ "photo:mg-ntot": {
+  "rating": "meh"
+ },
+ "photo:mg-oag": {
+  "rating": "meh"
+ },
+ "photo:mg-officespace": {
+  "rating": "meh"
+ },
+ "photo:mg-older": {
+  "rating": "meh"
+ },
+ "photo:mg-oprah": {
+  "rating": "meh"
+ },
+ "photo:mg-panik-kalm-panik": {
+  "rating": "favorite"
+ },
+ "photo:mg-patrick": {
+  "rating": "meh"
+ },
+ "photo:mg-perfection": {
+  "rating": "favorite"
+ },
+ "photo:mg-persian": {
+  "rating": "favorite"
+ },
+ "photo:mg-philosoraptor": {
+  "rating": "favorite"
+ },
+ "photo:mg-pigeon": {
+  "rating": "favorite"
+ },
+ "photo:mg-pooh": {
+  "rating": "favorite"
+ },
+ "photo:mg-pool": {
+  "rating": "favorite"
+ },
+ "photo:mg-prop3": {
+  "rating": "meh"
+ },
+ "photo:mg-ptj": {
+  "rating": "meh"
+ },
+ "photo:mg-puffin": {
+  "rating": "meh"
+ },
+ "photo:mg-red": {
+  "rating": "meh"
+ },
+ "photo:mg-regret": {
+  "rating": "meh"
+ },
+ "photo:mg-remembers": {
+  "rating": "meh"
+ },
+ "photo:mg-reveal": {
+  "rating": "favorite"
+ },
+ "photo:mg-right": {
+  "rating": "favorite"
+ },
+ "photo:mg-rollsafe": {
+  "rating": "favorite"
+ },
+ "photo:mg-sad-biden": {
+  "rating": "meh"
+ },
+ "photo:mg-sad-boehner": {
+  "rating": "meh"
+ },
+ "photo:mg-sad-bush": {
+  "rating": "meh"
+ },
+ "photo:mg-sad-clinton": {
+  "rating": "meh"
+ },
+ "photo:mg-sad-obama": {
+  "rating": "favorite"
+ },
+ "photo:mg-sadfrog": {
+  "rating": "favorite"
+ },
+ "photo:mg-saltbae": {
+  "rating": "favorite"
+ },
+ "photo:mg-same": {
+  "rating": "favorite"
+ },
+ "photo:mg-sarcasticbear": {
+  "rating": "meh"
+ },
+ "photo:mg-say": {
+  "rating": "meh"
+ },
+ "photo:mg-sb": {
+  "rating": "meh"
+ },
+ "photo:mg-scc": {
+  "rating": "meh"
+ },
+ "photo:mg-seagull": {
+  "rating": "good"
+ },
+ "photo:mg-sf": {
+  "rating": "meh"
+ },
+ "photo:mg-sk": {
+  "rating": "good"
+ },
+ "photo:mg-ski": {
+  "rating": "meh"
+ },
+ "photo:mg-slap": {
+  "rating": "favorite"
+ },
+ "photo:mg-snek": {
+  "rating": "favorite"
+ },
+ "photo:mg-soa": {
+  "rating": "good"
+ },
+ "photo:mg-sohappy": {
+  "rating": "meh"
+ },
+ "photo:mg-sohot": {
+  "rating": "meh"
+ },
+ "photo:mg-soup-nazi": {
+  "rating": "meh"
+ },
+ "photo:mg-sparta": {
+  "rating": "meh"
+ },
+ "photo:mg-spiderman": {
+  "rating": "favorite"
+ },
+ "photo:mg-spirit": {
+  "rating": "meh"
+ },
+ "photo:mg-spongebob": {
+  "rating": "meh"
+ },
+ "photo:mg-ss": {
+  "rating": "meh"
+ },
+ "photo:mg-stew": {
+  "rating": "meh"
+ },
+ "photo:mg-stonks": {
+  "rating": "favorite"
+ },
+ "photo:mg-stop": {
+  "rating": "never"
+ },
+ "photo:mg-stop-it": {
+  "rating": "good"
+ },
+ "photo:mg-success": {
+  "rating": "good"
+ },
+ "photo:mg-tenguy": {
+  "rating": "meh"
+ },
+ "photo:mg-toohigh": {
+  "rating": "meh"
+ },
+ "photo:mg-touch": {
+  "rating": "meh"
+ },
+ "photo:mg-tried": {
+  "rating": "meh"
+ },
+ "photo:mg-trump": {
+  "rating": "meh"
+ },
+ "photo:mg-ugandanknuck": {
+  "rating": "meh"
+ },
+ "photo:mg-vince": {
+  "rating": "favorite"
+ },
+ "photo:mg-wallet": {
+  "rating": "meh"
+ },
+ "photo:mg-waygd": {
+  "rating": "meh"
+ },
+ "photo:mg-wddth": {
+  "rating": "favorite"
+ },
+ "photo:mg-whatyear": {
+  "rating": "meh"
+ },
+ "photo:mg-winter": {
+  "rating": "meh"
+ },
+ "photo:mg-wishes": {
+  "rating": "meh"
+ },
+ "photo:mg-wkh": {
+  "rating": "meh"
+ },
+ "photo:mg-woman-cat": {
+  "rating": "favorite"
+ },
+ "photo:mg-wonka": {
+  "rating": "meh"
+ },
+ "photo:mg-worst": {
+  "rating": "meh"
+ },
+ "photo:mg-xy": {
+  "rating": "meh"
+ },
+ "photo:mg-yallgot": {
+  "rating": "meh"
+ },
+ "photo:mg-yodawg": {
+  "rating": "meh"
+ },
+ "photo:mg-yuno": {
+  "rating": "meh"
+ },
+ "photo:mg-zero-wing": {
+  "rating": "meh"
+ },
+ "photo:mocking-spongebob": {
+  "rating": "meh"
+ },
+ "photo:monkey-puppet": {
+  "rating": "favorite"
+ },
+ "photo:mother-ignoring-kid-drowning-in-a-pool": {
+  "rating": "favorite"
+ },
+ "photo:no-yes": {
+  "rating": "meh"
+ },
+ "photo:one-does-not-simply": {
+  "rating": "meh"
+ },
+ "photo:oprah-you-get-a": {
+  "rating": "meh"
+ },
+ "photo:panik-kalm-panik": {
+  "rating": "favorite"
+ },
+ "photo:pawn-stars-best-i-can-do": {
+  "rating": "meh"
+ },
+ "photo:roll-safe-think-about-it": {
+  "rating": "favorite"
+ },
+ "photo:running-away-balloon": {
+  "rating": "favorite"
+ },
+ "photo:sad-pablo-escobar": {
+  "rating": "good"
+ },
+ "photo:say-the-line-bart-simpsons": {
+  "rating": "meh"
+ },
+ "photo:scooby-doo-mask-reveal": {
+  "rating": "good"
+ },
+ "photo:sleeping-shaq": {
+  "rating": "favorite"
+ },
+ "photo:soldier-protecting-sleeping-child": {
+  "rating": "good"
+ },
+ "photo:spider-man-triple": {
+  "rating": "favorite"
+ },
+ "photo:spiderman-pointing-at-spiderman": {
+  "rating": "favorite"
+ },
+ "photo:squidward-window": {
+  "rating": "favorite"
+ },
+ "photo:star-wars-yoda": {
+  "rating": "good"
+ },
+ "photo:surprised-pikachu": {
+  "rating": "favorite"
+ },
+ "photo:the-rock-driving": {
+  "rating": "good"
+ },
+ "photo:the-scroll-of-truth": {
+  "rating": "favorite"
+ },
+ "photo:they-don-t-know": {
+  "rating": "favorite"
+ },
+ "photo:they-re-the-same-picture": {
+  "rating": "good"
+ },
+ "photo:third-world-skeptical-kid": {
+  "rating": "good"
+ },
+ "photo:this-is-fine": {
+  "rating": "good"
+ },
+ "photo:this-is-where-i-d-put-my-trophy-if-i-had": {
+  "rating": "good"
+ },
+ "photo:three-headed-dragon": {
+  "rating": "favorite"
+ },
+ "photo:trade-offer": {
+  "rating": "good"
+ },
+ "photo:tuxedo-winnie-the-pooh": {
+  "rating": "favorite"
+ },
+ "photo:two-buttons": {
+  "rating": "favorite"
+ },
+ "photo:two-guys-on-a-bus": {
+  "rating": "good"
+ },
+ "photo:two-paths": {
+  "rating": "favorite"
+ },
+ "photo:types-of-headaches-meme": {
+  "rating": "favorite"
+ },
+ "photo:uno-draw-25-cards": {
+  "rating": "good"
+ },
+ "photo:waiting-skeleton": {
+  "rating": "favorite"
+ },
+ "photo:whe-i-m-in-a-competition-and-my-opponent": {
+  "rating": "favorite"
+ },
+ "photo:where-monkey": {
+  "rating": "favorite"
+ },
+ "photo:whisper-and-goosebumps": {
+  "rating": "good"
+ },
+ "photo:who-killed-hannibal": {
+  "rating": "favorite"
+ },
+ "photo:woman-yelling-at-cat": {
+  "rating": "favorite"
+ },
+ "photo:x-x-everywhere": {
+  "rating": "good"
+ },
+ "photo:y-all-got-any-more-of-that": {
+  "rating": "good"
+ },
+ "photo:yo-dawg-heard-you": {
+  "rating": "meh"
+ },
+ "photo:you-guys-are-getting-paid": {
+  "rating": "good"
+ },
+ "photo:you-know-i-m-something-of-a-scientist-my": {
+  "rating": "favorite"
+ },
+ "sound:absolute-cinema": {
+  "rating": "favorite"
+ },
+ "sound:air-horn": {
+  "rating": "meh"
+ },
+ "sound:am-i-cooked": {
+  "rating": "meh"
+ },
+ "sound:among-us-role-reveal": {
+  "note": "when giving multiple introduction in one screen",
+  "rating": "favorite"
+ },
+ "sound:anime-ahh": {
+  "rating": "good"
+ },
+ "sound:anime-wow": {
+  "rating": "good"
+ },
+ "sound:applause": {
+  "rating": "meh"
+ },
+ "sound:aughhh": {
+  "note": "indicating extreme stress from try to understanding  logic",
+  "rating": "favorite"
+ },
+ "sound:aura-farming": {
+  "rating": "good"
+ },
+ "sound:awkward": {
+  "rating": "favorite"
+ },
+ "sound:ballerina-cappuccina": {
+  "rating": "never"
+ },
+ "sound:bell": {
+  "rating": "meh"
+ },
+ "sound:bhai-kya-kar-raha-hai-tu": {
+  "rating": "never"
+ },
+ "sound:boing": {
+  "rating": "never"
+ },
+ "sound:bombardiro-crocodilo": {
+  "rating": "never"
+ },
+ "sound:bombastic-side-eye": {
+  "rating": "good"
+ },
+ "sound:bonk": {
+  "rating": "favorite"
+ },
+ "sound:boo": {
+  "rating": "never"
+ },
+ "sound:bruh": {
+  "rating": "good"
+ },
+ "sound:bubbles": {
+  "rating": "meh"
+ },
+ "sound:buzzer": {
+  "rating": "good"
+ },
+ "sound:car-horn": {
+  "rating": "good"
+ },
+ "sound:cash": {
+  "rating": "good"
+ },
+ "sound:cat-laugh": {
+  "rating": "favorite"
+ },
+ "sound:censor-beep": {
+  "rating": "favorite"
+ },
+ "sound:chill-guy": {
+  "rating": "favorite"
+ },
+ "sound:chime": {
+  "rating": "good"
+ },
+ "sound:chipi-chipi": {
+  "rating": "good"
+ },
+ "sound:click": {
+  "rating": "meh"
+ },
+ "sound:coffin-dance": {
+  "rating": "good"
+ },
+ "sound:crack": {
+  "rating": "meh"
+ },
+ "sound:crash": {
+  "rating": "meh"
+ },
+ "sound:crickets": {
+  "rating": "favorite"
+ },
+ "sound:crowd-ooh": {
+  "rating": "meh"
+ },
+ "sound:curb-your-enthusiasm": {
+  "rating": "never"
+ },
+ "sound:darth-vader-nooo": {
+  "rating": "good"
+ },
+ "sound:dexter-meme": {
+  "rating": "favorite"
+ },
+ "sound:dhurandhar-ghar-mein-ghuske": {
+  "rating": "never"
+ },
+ "sound:ding": {
+  "rating": "meh"
+ },
+ "sound:ding-ding": {
+  "rating": "never"
+ },
+ "sound:directed-by-robert-b-weide": {
+  "rating": "never"
+ },
+ "sound:drill": {
+  "rating": "meh"
+ },
+ "sound:drum-roll": {
+  "rating": "good"
+ },
+ "sound:dun-dun-dun": {
+  "rating": "never"
+ },
+ "sound:emotional-damage": {
+  "rating": "favorite"
+ },
+ "sound:engine": {
+  "rating": "meh"
+ },
+ "sound:error": {
+  "rating": "favorite"
+ },
+ "sound:faaah": {
+  "note": "bruh moment",
+  "rating": "favorite"
+ },
+ "sound:fart": {
+  "rating": "good"
+ },
+ "sound:fbi-open-up": {
+  "note": "double meaning illegal suspicious line",
+  "rating": "favorite"
+ },
+ "sound:fortnite-death": {
+  "rating": "favorite"
+ },
+ "sound:galaxy-brain": {
+  "rating": "favorite"
+ },
+ "sound:gasp": {
+  "rating": "meh"
+ },
+ "sound:get-out": {
+  "rating": "meh"
+ },
+ "sound:glass": {
+  "rating": "good"
+ },
+ "sound:glitch-1": {
+  "rating": "meh"
+ },
+ "sound:goat-scream": {
+  "rating": "good"
+ },
+ "sound:goofy-ahh": {
+  "rating": "good"
+ },
+ "sound:gta-mission-complete": {
+  "rating": "good"
+ },
+ "sound:haiyaa": {
+  "rating": "good"
+ },
+ "sound:heartbeat": {
+  "rating": "good"
+ },
+ "sound:hello-darkness-my-old-friend": {
+  "rating": "good"
+ },
+ "sound:hello-there": {
+  "rating": "good"
+ },
+ "sound:here-we-go-again": {
+  "rating": "good"
+ },
+ "sound:hitmarker": {
+  "rating": "meh"
+ },
+ "sound:huh-cat": {
+  "note": "normal Confusion",
+  "rating": "favorite"
+ },
+ "sound:illuminati": {
+  "note": "fast pace Confusion",
+  "rating": "favorite"
+ },
+ "sound:impact": {
+  "rating": "good"
+ },
+ "sound:impact-bass-2": {
+  "rating": "good"
+ },
+ "sound:jet2-holiday": {
+  "rating": "favorite"
+ },
+ "sound:john-cena": {
+  "rating": "meh"
+ },
+ "sound:ka-ching": {
+  "rating": "meh"
+ },
+ "sound:kids-yay": {
+  "rating": "meh"
+ },
+ "sound:kiss": {
+  "rating": "good"
+ },
+ "sound:laugh-track": {
+  "rating": "never"
+ },
+ "sound:law-and-order": {
+  "rating": "good"
+ },
+ "sound:lego-yoda-death": {
+  "rating": "never"
+ },
+ "sound:metal-pipe": {
+  "rating": "favorite"
+ },
+ "sound:minion-laugh": {
+  "rating": "good"
+ },
+ "sound:mission-failed": {
+  "rating": "good"
+ },
+ "sound:mission-passed": {
+  "rating": "good"
+ },
+ "sound:mlg-airhorn": {
+  "rating": "good"
+ },
+ "sound:moye-moye": {
+  "rating": "meh"
+ },
+ "sound:mr-bean": {
+  "rating": "never"
+ },
+ "sound:nani": {
+  "rating": "favorite"
+ },
+ "sound:noice": {
+  "rating": "never"
+ },
+ "sound:nope": {
+  "rating": "good"
+ },
+ "sound:oh-my-god-wow": {
+  "rating": "never"
+ },
+ "sound:oh-no-no-no": {
+  "rating": "meh"
+ },
+ "sound:ohio": {
+  "rating": "never"
+ },
+ "sound:oi-oi-oi": {
+  "rating": "favorite"
+ },
+ "sound:oof": {
+  "rating": "good"
+ },
+ "sound:paisa-hi-paisa-hoga": {
+  "rating": "never"
+ },
+ "sound:ping": {
+  "rating": "good"
+ },
+ "sound:plane": {
+  "rating": "never"
+ },
+ "sound:pop": {
+  "rating": "meh"
+ },
+ "sound:pour": {
+  "rating": "meh"
+ },
+ "sound:punch": {
+  "rating": "never"
+ },
+ "sound:rasode-mein-kaun-tha": {
+  "rating": "never"
+ },
+ "sound:record-scratch": {
+  "rating": "never"
+ },
+ "sound:rimshot": {
+  "rating": "favorite"
+ },
+ "sound:riser": {
+  "rating": "never"
+ },
+ "sound:rizz": {
+  "note": "impressing someone romantic",
+  "rating": "favorite"
+ },
+ "sound:sad-hamster": {
+  "rating": "good"
+ },
+ "sound:sad-trombone": {
+  "rating": "good"
+ },
+ "sound:sad-violin": {
+  "rating": "good"
+ },
+ "sound:sheesh": {
+  "rating": "meh"
+ },
+ "sound:ship-horn": {
+  "rating": "good"
+ },
+ "sound:six-seven": {
+  "note": "when ever  67 mantion in video",
+  "rating": "favorite"
+ },
+ "sound:sizzle": {
+  "rating": "never"
+ },
+ "sound:skull": {
+  "rating": "never"
+ },
+ "sound:slap": {
+  "rating": "favorite"
+ },
+ "sound:slide-whistle": {
+  "rating": "good"
+ },
+ "sound:sparkle": {
+  "rating": "meh"
+ },
+ "sound:spiderman-meme": {
+  "note": "evil plan",
+  "rating": "favorite"
+ },
+ "sound:spongebob-boowomp": {
+  "rating": "meh"
+ },
+ "sound:spongebob-disappointed": {
+  "note": "bruh moment",
+  "rating": "favorite"
+ },
+ "sound:spongebob-fail": {
+  "rating": "good"
+ },
+ "sound:spring": {
+  "rating": "good"
+ },
+ "sound:sus": {
+  "rating": "good"
+ },
+ "sound:taco-bell-bong": {
+  "note": "bruh fact",
+  "rating": "favorite"
+ },
+ "sound:this-is-sparta": {
+  "rating": "good"
+ },
+ "sound:thug-life": {
+  "rating": "never"
+ },
+ "sound:tick": {
+  "rating": "never"
+ },
+ "sound:to-be-continued": {
+  "rating": "good"
+ },
+ "sound:tom-scream": {
+  "rating": "good"
+ },
+ "sound:train-horn": {
+  "rating": "meh"
+ },
+ "sound:tralalero-tralala": {
+  "rating": "meh"
+ },
+ "sound:tung-tung-tung-sahur": {
+  "rating": "meh"
+ },
+ "sound:typing": {
+  "rating": "good"
+ },
+ "sound:tyre-screech": {
+  "rating": "meh"
+ },
+ "sound:utha-le-re-baba": {
+  "rating": "meh"
+ },
+ "sound:uwu": {
+  "rating": "good"
+ },
+ "sound:vine-boom": {
+  "rating": "favorite"
+ },
+ "sound:vine-thud": {
+  "rating": "favorite"
+ },
+ "sound:wait-thats-illegal": {
+  "rating": "good"
+ },
+ "sound:wasted": {
+  "rating": "good"
+ },
+ "sound:we-are-cooked": {
+  "rating": "meh"
+ },
+ "sound:whistle": {
+  "rating": "meh"
+ },
+ "sound:whoosh": {
+  "rating": "good"
+ },
+ "sound:whoosh-cinematic": {
+  "rating": "meh"
+ },
+ "sound:whoosh-short": {
+  "rating": "meh"
+ },
+ "sound:why-are-you-running": {
+  "rating": "good"
+ },
+ "sound:wilhelm-scream": {
+  "rating": "good"
+ },
+ "sound:wind": {
+  "rating": "meh"
+ },
+ "sound:windows-xp-error": {
+  "rating": "favorite"
+ },
+ "sound:yeet": {
+  "rating": "good"
+ }
+}

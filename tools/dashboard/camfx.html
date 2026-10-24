@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Camera FX Review</title>
+<link rel="stylesheet" href="../../hyperframes/memekit.css">
+<style>
+  @font-face { font-family: "MK Poppins"; src: url("../../hyperframes/fonts/Poppins-Bold.ttf"); font-weight: 700; }
+  @font-face { font-family: "MK Poppins"; src: url("../../hyperframes/fonts/Poppins-ExtraBold.ttf"); font-weight: 800; }
+  @font-face { font-family: "MK Archivo"; src: url("../../hyperframes/fonts/ArchivoBlack-Regular.ttf"); }
+  :root {
+    --bg: #f6f2ea; --panel: #ffffff; --ink: #1d2030; --muted: #6b6f80; --line: #e4ddd0; --chip: #efe8da;
+    --fav: #e8364f; --good: #1f9d72; --meh: #c98a12; --never: #5b5f6e; --accent: #ffd23f; --focus: #3d8bfd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14151c; --panel: #1e2029; --ink: #f1efe9; --muted: #9a9cab; --line: #2d303c; --chip: #2a2d39; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 500 14px/1.4 "MK Poppins", system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--line); padding: 14px 20px 10px; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  h1 { font: 400 24px/1 "MK Archivo", sans-serif; margin: 0 8px 0 0; letter-spacing: 0.01em; }
+  h1 span { background: var(--accent); color: #1d2030; padding: 2px 8px; border-radius: 6px; }
+  .progress { flex: 1; min-width: 160px; height: 10px; background: var(--chip); border-radius: 99px; overflow: hidden; }
+  .progress i { display: block; height: 100%; background: var(--good); width: 0; transition: width .3s; }
+  .muted { color: var(--muted); }
+  button, select, input { font: inherit; color: inherit; }
+  .btn { border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 7px 12px; cursor: pointer; font-weight: 700; text-decoration: none; color: inherit; }
+  .btn:hover { border-color: var(--ink); }
+  .btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .btn.on { background: var(--focus); color: #fff; border-color: var(--focus); }
+  .tabs { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .tab { border: 0; background: var(--chip); border-radius: 99px; padding: 6px 14px; cursor: pointer; font-weight: 700; }
+  .tab.on { background: var(--ink); color: var(--bg); }
+  .stat { border: 0; border-radius: 99px; padding: 5px 11px; font-weight: 800; cursor: pointer; background: var(--chip); }
+  .stat.on { outline: 2px solid var(--ink); }
+  select, input[type=search], input[type=text] { border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 7px 10px; }
+  input[type=search] { min-width: 180px; }
+  label.ck { display: inline-flex; gap: 6px; align-items: center; font-weight: 700; cursor: pointer; }
+  input[type=range] { width: 110px; accent-color: var(--ink); }
+  main { padding: 18px 20px 80px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 2px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+  .card.sel { border-color: var(--focus); box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 30%, transparent); }
+  .card.r-favorite { border-color: var(--fav); } .card.r-never { opacity: .55; }
+  .media { position: relative; aspect-ratio: 16 / 9; background: #000; overflow: hidden; cursor: pointer; }
+  .stage { position: absolute; inset: 0; }
+  .stage img, .stage video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .media .play { position: absolute; right: 8px; bottom: 8px; z-index: 90; background: rgba(20,22,30,.82); color: #fff; border: 0; border-radius: 99px; padding: 6px 12px; font-weight: 800; cursor: pointer; }
+  .media .badge { position: absolute; left: 8px; top: 8px; z-index: 90; background: rgba(20,22,30,.82); color: #fff; border-radius: 99px; padding: 3px 9px; font-size: 12px; font-weight: 800; }
+  .media .aim { position: absolute; z-index: 89; width: 18px; height: 18px; margin: -9px 0 0 -9px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px #0008; pointer-events: none; display: none; }
+  body.aiming .media .aim { display: block; } body.aiming .media { cursor: crosshair; }
+  .media.playing .play { background: var(--fav); }
+  .body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .id { font-weight: 800; font-size: 15px; word-break: break-word; }
+  .chips span { display: inline-block; background: var(--chip); border-radius: 99px; padding: 1px 9px; font-size: 12px; font-weight: 800; margin: 0 4px 3px 0; }
+  .what { color: var(--muted); font-size: 13px; min-height: 2.8em; }
+  .rate { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: auto; }
+  .rate button { border: 2px solid var(--line); background: transparent; border-radius: 10px; padding: 6px 0; cursor: pointer; font-size: 13px; font-weight: 800; }
+  .rate button.on[data-r=favorite] { background: var(--fav); border-color: var(--fav); color: #fff; }
+  .rate button.on[data-r=good] { background: var(--good); border-color: var(--good); color: #fff; }
+  .rate button.on[data-r=meh] { background: var(--meh); border-color: var(--meh); color: #fff; }
+  .rate button.on[data-r=never] { background: var(--never); border-color: var(--never); color: #fff; }
+  .note { width: 100%; border: 1px dashed var(--line); background: transparent; border-radius: 8px; padding: 5px 8px; font-size: 13px; }
+  .toast { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 16px; border-radius: 99px; font-weight: 800; opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 200; }
+  .toast.show { opacity: 1; }
+  .keys { font-size: 12px; }
+  kbd { background: var(--chip); border-radius: 5px; padding: 1px 6px; font: 700 12px "MK Poppins", sans-serif; }
+  .empty { grid-column: 1 / -1; text-align: center; padding: 60px 0; color: var(--muted); }
+  #file { display: none; }
+  @media (max-width: 600px) { header { position: static; padding: 12px 16px 8px; } .keys { display: none; } main { padding: 14px 16px 80px; grid-template-columns: 1fr; } input[type=search] { min-width: 0; flex: 1; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <h1>Camera FX <span>Review</span></h1>
+    <div class="progress" title="reviewed"><i id="prog"></i></div>
+    <span id="progtxt" class="muted"></span>
+    <button class="btn" id="review">▶ Review unrated</button>
+    <button class="btn primary" id="save" title="Write ratings into catalog.json / CATALOG.md so Claude uses them">Save to catalog</button>
+    <a class="btn" href="index.html">😂 Memes →</a>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div class="row" style="margin-top:10px">
+    <div id="stats" class="row"></div>
+    <select id="mood"><option value="">all moods</option></select>
+    <input type="search" id="q" placeholder="search name or meaning…">
+  </div>
+  <div class="row" style="margin-top:10px">
+    <span class="muted">Preview on</span>
+    <select id="sample"></select>
+    <input type="file" id="file" accept="video/*">
+    <button class="btn" id="aim" title="Then click the face in any preview">🎯 Set focus</button>
+    <span class="muted">Intensity</span><input type="range" id="k" min="0.4" max="2" step="0.1" value="1"><b id="kv">1.0</b>
+    <input type="text" id="cap" placeholder="caption text (optional)" style="width:190px">
+    <label class="ck"><input type="checkbox" id="snd" checked> meme sound</label>
+    <label class="ck"><input type="checkbox" id="vsnd"> clip audio</label>
+    <span class="keys muted"><kbd>1</kbd> ❤️ <kbd>2</kbd> 👍 <kbd>3</kbd> 😐 <kbd>4</kbd> 🚫 <kbd>0</kbd> clear · <kbd>space</kbd>/<kbd>r</kbd> play · <kbd>←</kbd><kbd>→</kbd> move · <kbd>n</kbd> note</span>
+  </div>
+</header>
+<main id="grid"></main>
+<div class="toast" id="toast"></div>
+<script src="../../hyperframes/vendor/gsap.min.js"></script>
+<script src="../../hyperframes/camfx.js"></script>
+<script>
+const ROOT = "../../";
+const R = { favorite: "❤️ Fav", good: "👍 Good", meh: "😐 Meh", never: "🚫 Never" };
+const CATS = [["all", "All"], ["zoom", "🔍 Zoom"], ["shake", "📳 Shake"], ["move", "🌀 Move"], ["color", "🎨 Colour"], ["glitch", "📼 Glitch"], ["overlay", "✨ Overlay"]];
+const SAMPLES = [
+  { id: "talking_kokilaben", name: "Talking: Kokilaben", focus: [36, 38] },
+  { id: "talking_steven", name: "Talking: Steven He", focus: [47, 30] },
+  { id: "edu_3d", name: "Edu video: 3D scene", focus: [40, 55] },
+];
+const LEAD = 0.45, TAIL = 0.7;
+let items = [], sounds = {}, ratings = {}, server = true, sel = -1, shown = [];
+let state = { cat: "all", mood: "", q: "", rating: "", review: false };
+let sample = SAMPLES[0], poster = "", focus = [50, 42], K = 1, aiming = false, custom = null;
+const $ = (s) => document.querySelector(s);
+const key = (i) => `camfx:${i.id}`;
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+const toast = (t) => { const e = $("#toast"); e.textContent = t; e.classList.add("show"); clearTimeout(toast.h); toast.h = setTimeout(() => e.classList.remove("show"), 1400); };
+
+// one shared video element that moves into whichever card is playing
+const VID = document.createElement("video"); VID.playsInline = true; VID.preload = "auto"; VID.muted = true;
+
+async function init() {
+  const cat = (await (await fetch(ROOT + "catalog.json", { cache: "no-store" })).json()).items;
+  items = cat.filter((i) => i.type === "camfx");
+  cat.filter((i) => i.type === "sound").forEach((s) => (sounds[s.id] = ROOT + s.file));
+  try { ratings = await (await fetch("/api/ratings", { cache: "no-store" })).json(); }
+  catch { server = false; ratings = store.get("memeRatings", {}); $("#save").textContent = "Export ratings"; toast("Offline mode — start tools/dashboard.py to save into the kit"); }
+  $("#mood").innerHTML += [...new Set(items.map((i) => i.mood))].sort().map((m) => `<option>${m}</option>`).join("");
+  $("#sample").innerHTML = SAMPLES.map((s) => `<option value="${s.id}">${s.name}</option>`).join("") + `<option value="__file">📁 My own video…</option>`;
+  const last = store.get("cfxSample", SAMPLES[0].id); setSample(SAMPLES.find((s) => s.id === last) || SAMPLES[0]);
+  render();
+}
+
+function setSample(s) {
+  stop(); sample = s; $("#sample").value = s.id;
+  VID.src = s.url || `${ROOT}camfx/samples/${s.id}.mp4`; poster = s.poster || `${ROOT}camfx/samples/${s.id}.jpg`;
+  focus = store.get("cfxFocus:" + s.id, s.focus); if (!s.url) store.set("cfxSample", s.id);
+  document.querySelectorAll(".stage img").forEach((im) => (im.src = poster)); aimMarks();
+}
+
+function counts() {
+  const c = { favorite: 0, good: 0, meh: 0, never: 0, unrated: 0 };
+  for (const i of items) c[ratings[key(i)]?.rating || "unrated"]++;
+  return c;
+}
+function header() {
+  const c = counts(), done = items.length - c.unrated;
+  $("#prog").style.width = (100 * done / items.length) + "%";
+  $("#progtxt").textContent = `${done} / ${items.length} reviewed`;
+  $("#tabs").innerHTML = CATS.map(([t, n]) => `<button class="tab ${state.cat === t ? "on" : ""}" data-t="${t}">${n} · ${t === "all" ? items.length : items.filter((i) => i.cat === t).length}</button>`).join("");
+  $("#stats").innerHTML = [["", "All"], ["unrated", `⬜ ${c.unrated}`], ["favorite", `❤️ ${c.favorite}`], ["good", `👍 ${c.good}`], ["meh", `😐 ${c.meh}`], ["never", `🚫 ${c.never}`]]
+    .map(([r, t]) => `<button class="stat ${state.rating === r ? "on" : ""}" data-r="${r}">${t}</button>`).join("");
+}
+const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+function card(i, n) {
+  const r = ratings[key(i)] || {};
+  const snd = (i.sound || []).map((s) => s[0]).filter((v, k, a) => a.indexOf(v) === k).join(", ");
+  return `<article class="card ${r.rating ? "r-" + r.rating : ""}" data-n="${n}">
+    <div class="media"><div class="stage"><img src="${poster}" alt=""></div><i class="aim"></i>
+      <span class="badge">${i.d}s${i.cap ? " · caption" : ""}${i.hold ? " · holds" : ""}</span><button class="play">▶ play</button></div>
+    <div class="body">
+      <div class="id">${i.id}</div>
+      <div class="chips"><span>${i.cat}</span><span>${i.mood}</span>${snd ? `<span>🔊 ${esc(snd)}</span>` : ""}</div>
+      <div class="what">${esc(i.what)}</div>
+      <div class="rate">${Object.entries(R).map(([k, t]) => `<button data-r="${k}" class="${r.rating === k ? "on" : ""}">${t}</button>`).join("")}</div>
+      <input class="note" placeholder="note (optional)" value="${esc(r.note)}">
+    </div></article>`;
+}
+function filtered() {
+  const q = state.q.toLowerCase();
+  return items.filter((i) => (state.cat === "all" || i.cat === state.cat) && (!state.mood || i.mood === state.mood)
+    && (!q || (i.id + " " + i.what).toLowerCase().includes(q))
+    && (!state.rating || (state.rating === "unrated" ? !ratings[key(i)]?.rating : ratings[key(i)]?.rating === state.rating)));
+}
+function render() {
+  stop(); header(); shown = filtered();
+  $("#grid").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">Nothing here — change the filters.</div>`;
+  aimMarks();
+  if (sel >= shown.length) sel = shown.length - 1;
+  if (state.review && shown.length) select(0); else if (sel >= 0) select(sel, false);
+}
+function aimMarks() { document.querySelectorAll(".aim").forEach((a) => { a.style.left = focus[0] + "%"; a.style.top = focus[1] + "%"; }); }
+function select(n, scroll = true) {
+  document.querySelectorAll(".card.sel").forEach((c) => c.classList.remove("sel"));
+  sel = n; const c = document.querySelector(`.card[data-n="${n}"]`); if (!c) return;
+  c.classList.add("sel"); if (scroll) c.scrollIntoView({ block: "center", behavior: "smooth" });
+}
+
+// ---------- preview: shared video + a live GSAP timeline running the real CamFX effect ----------
+let live = null;
+function stop() {
+  if (!live) return;
+  live.tl.kill(); live.timers.forEach(clearTimeout); live.audios.forEach((a) => a.pause());
+  VID.pause(); CamFX.clear(live.stage);
+  live.stage.innerHTML = `<img src="${poster}" alt="">`; live.media.classList.remove("playing");
+  live.media.querySelector(".play").textContent = "▶ play"; live = null;
+}
+function play(n) {
+  const i = shown[n], c = document.querySelector(`.card[data-n="${n}"]`); if (!i || !c) return;
+  if (live && live.n === n) { stop(); return; }
+  stop();
+  const media = c.querySelector(".media"), stage = c.querySelector(".stage");
+  stage.innerHTML = ""; stage.appendChild(VID);
+  VID.muted = !$("#vsnd").checked; VID.currentTime = 0; VID.play().catch(() => {});
+  const cap = $("#cap").value.trim();
+  const tl = gsap.timeline({ paused: true });
+  CamFX.add(tl, { fx: i.id, t: LEAD, d: i.d, target: stage, x: focus[0], y: focus[1], k: K, hold: i.hold, ...(cap ? { cap } : {}) });
+  tl.to({}, { duration: LEAD + i.d + TAIL + (i.hold ? .8 : 0) }, 0);
+  live = { n, tl, stage, media, timers: [], audios: [] };
+  if ($("#snd").checked) (i.sound || []).forEach(([sid, at, vol]) => {
+    if (!sounds[sid]) return;
+    live.timers.push(setTimeout(() => { const a = new Audio(sounds[sid]); a.volume = Math.min(1, vol * 1.6); a.play().catch(() => {}); live && live.audios.push(a); }, (LEAD + at * i.d) * 1000));
+  });
+  tl.eventCallback("onComplete", () => { if (live && live.tl === tl) { stop(); if (state.review) toast("Rate it: 1 ❤️ 2 👍 3 😐 4 🚫 · r = replay"); } });
+  media.classList.add("playing"); media.querySelector(".play").textContent = "■ stop";
+  tl.play(0);
+}
+
+async function rate(n, r, note) {
+  const i = shown[n]; if (!i) return; const k = key(i); const cur = { ...(ratings[k] || {}) }; const body = { key: k };
+  if (r !== undefined) { body.rating = r; if (r) cur.rating = r; else delete cur.rating; }
+  if (note !== undefined) { body.note = note; if (note) cur.note = note; else delete cur.note; }
+  if (Object.keys(cur).length) ratings[k] = cur; else delete ratings[k];
+  if (server) { try { await fetch("/api/rate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }); } catch { toast("Save failed — is the dashboard server running?"); } }
+  else store.set("memeRatings", ratings);
+  const c = document.querySelector(`.card[data-n="${n}"]`);
+  if (c && r !== undefined) { c.className = `card ${r ? "r-" + r : ""} sel`; c.querySelectorAll(".rate button").forEach((b) => b.classList.toggle("on", b.dataset.r === r)); }
+  header();
+  if (r !== undefined) { toast(r ? R[r] : "cleared");
+    if (state.review) setTimeout(() => { render(); if (shown.length) play(0); else { state.review = false; toast("All reviewed 🎉"); } }, 250); }
+}
+
+// grab a poster frame from the user's own video
+function useFile(f) {
+  const url = URL.createObjectURL(f), v = document.createElement("video"); v.muted = true; v.src = url;
+  v.addEventListener("loadeddata", () => { v.currentTime = Math.min(1, v.duration / 3); }, { once: true });
+  v.addEventListener("seeked", () => {
+    const cv = document.createElement("canvas"); cv.width = 640; cv.height = 360; const g = cv.getContext("2d");
+    g.fillStyle = "#000"; g.fillRect(0, 0, 640, 360);
+    const s = Math.max(640 / v.videoWidth, 360 / v.videoHeight), w = v.videoWidth * s, h = v.videoHeight * s; g.drawImage(v, (640 - w) / 2, (360 - h) / 2, w, h);
+    custom = { id: "__custom", name: f.name, url, poster: cv.toDataURL("image/jpeg", .85), focus: [50, 42] };
+    if (![...$("#sample").options].some((o) => o.value === "__custom")) $("#sample").insertAdjacentHTML("beforeend", `<option value="__custom"></option>`);
+    $("#sample").querySelector('[value="__custom"]').textContent = "🎬 " + f.name;
+    setSample(custom); toast("Using your video — 🎯 set the focus on the face");
+  }, { once: true });
+}
+
+document.addEventListener("click", (e) => {
+  const t = e.target, c = t.closest(".card");
+  if (t.matches(".tab")) { state.cat = t.dataset.t; sel = -1; render(); return; }
+  if (t.matches(".stat")) { state.rating = t.dataset.r; sel = -1; render(); return; }
+  if (!c) return; const n = +c.dataset.n;
+  if (t.matches(".rate button")) { select(n, false); const cur = ratings[key(shown[n])]?.rating; rate(n, cur === t.dataset.r ? null : t.dataset.r); return; }
+  const m = t.closest(".media");
+  if (m && aiming) { const b = m.getBoundingClientRect(); focus = [Math.round((e.clientX - b.left) / b.width * 100), Math.round((e.clientY - b.top) / b.height * 100)];
+    store.set("cfxFocus:" + sample.id, focus); aimMarks(); aiming = false; document.body.classList.remove("aiming"); $("#aim").classList.remove("on"); toast(`Focus ${focus[0]}%, ${focus[1]}%`); return; }
+  if (m) { select(n, false); play(n); return; }
+  if (!t.matches(".note")) select(n, false);
+});
+document.addEventListener("change", (e) => { if (e.target.matches(".note")) rate(+e.target.closest(".card").dataset.n, undefined, e.target.value.trim()); });
+$("#mood").onchange = (e) => { state.mood = e.target.value; sel = -1; render(); };
+$("#q").oninput = (e) => { state.q = e.target.value; sel = -1; render(); };
+$("#sample").onchange = (e) => { const v = e.target.value;
+  if (v === "__file") { $("#sample").value = sample.id; $("#file").click(); return; }
+  setSample(v === "__custom" ? custom : SAMPLES.find((s) => s.id === v)); };
+$("#file").onchange = (e) => { if (e.target.files[0]) useFile(e.target.files[0]); e.target.value = ""; };
+$("#aim").onclick = () => { aiming = !aiming; document.body.classList.toggle("aiming", aiming); $("#aim").classList.toggle("on", aiming); if (aiming) toast("Click the face in any preview"); };
+$("#k").oninput = (e) => { K = +e.target.value; $("#kv").textContent = K.toFixed(1); };
+$("#review").onclick = () => { state.review = true; state.rating = "unrated"; render(); if (shown.length) play(0); toast("Review mode: 1-4 to rate, auto-advances"); };
+$("#save").onclick = async () => {
+  if (!server) { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(ratings, null, 1)], { type: "application/json" })); a.download = "ratings.json"; a.click(); toast("Put it in meme-kit/meta/ratings.json"); return; }
+  const r = await (await fetch("/api/rebuild", { method: "POST" })).json(); toast(r.ok ? "Catalog updated ✔" : "Rebuild failed");
+};
+document.addEventListener("keydown", (e) => {
+  if (e.target.matches("input[type=text], input[type=search], .note, select")) { if (e.key === "Escape") e.target.blur(); return; }
+  const map = { "1": "favorite", "2": "good", "3": "meh", "4": "never", "0": null };
+  if (e.key in map && sel >= 0) { rate(sel, map[e.key]); e.preventDefault(); }
+  else if (e.key === "ArrowRight" || e.key === "ArrowDown") { select(Math.min(shown.length - 1, sel + 1)); e.preventDefault(); }
+  else if (e.key === "ArrowLeft" || e.key === "ArrowUp") { select(Math.max(0, sel - 1)); e.preventDefault(); }
+  else if ((e.key === " " || e.key === "r") && sel >= 0) { if (live && live.n === sel) stop(); play(sel); e.preventDefault(); }
+  else if (e.key === "n" && sel >= 0) { document.querySelector(`.card[data-n="${sel}"] .note`).focus(); e.preventDefault(); }
+  else if (e.key === "Escape") { state.review = false; stop(); }
+});
+init();
+</script>
+</body>
+</html>

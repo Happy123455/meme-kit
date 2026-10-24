@@ -1,0 +1,386 @@
+{
+ "combos": [
+  {
+   "id": "rock_sus",
+   "name": "Rock sus reveal",
+   "mood": "suspicious",
+   "what": "Slow Rock eyebrow push-in on the speaker, then The Rock himself pops up from the corner. After a line that sounds wrong or has a double meaning.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "rock_eyebrow",
+     "at": 0
+    },
+    {
+     "type": "greenscreen",
+     "id": "the_rock_eyebrow_raise",
+     "at": 0.5,
+     "args": {
+      "pos": "right",
+      "w": 620,
+      "dur": 3,
+      "mute": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "wrong_answer_wasted",
+   "name": "Wrong answer → WASTED",
+   "mood": "fail",
+   "what": "Freeze-gray + record scratch, then GTA WASTED full screen. The classic mistake students make (÷ n instead of n − 1, wrong units).",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "freeze_gray",
+     "at": 0,
+     "args": {
+      "cap": "{cap}",
+      "dur": 1.6
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "wasted_gta",
+     "at": 1.1,
+     "args": {
+      "pos": "full",
+      "dur": 2.6
+     }
+    }
+   ]
+  },
+  {
+   "id": "right_answer_respect",
+   "name": "Right answer → Mission passed",
+   "mood": "success",
+   "what": "Zoom punch on the answer box, then GTA 'Mission passed, respect +'. Final answer / correct method.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "zoom_punch",
+     "at": 0,
+     "args": {
+      "dur": 1
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "mission_passed_respect",
+     "at": 0.35,
+     "args": {
+      "pos": "full"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mind_blown_reveal",
+   "name": "Mind-blown reveal",
+   "mood": "shock",
+   "what": "Triple zoom (boom boom boom) on the key idea + Mr Bean shocked card with a caption. A surprising fact or formula reveal.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "triple_zoom",
+     "at": 0
+    },
+    {
+     "type": "gif",
+     "id": "mr_bean_shocked",
+     "at": 1.4,
+     "args": {
+      "dur": 2.6,
+      "pos": "left",
+      "w": 420,
+      "cap": "{cap}"
+     }
+    }
+   ]
+  },
+  {
+   "id": "emotional_damage_hit",
+   "name": "Emotional damage",
+   "mood": "pain",
+   "what": "Steven He 'EMOTIONAL DAMAGE' camera hit + the clip. When the paper asks the hardest question, or marks are lost for a silly reason.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "emotional_damage",
+     "at": 0,
+     "args": {
+      "sound": false
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "emotional_damage_steven_he",
+     "at": 0,
+     "args": {
+      "pos": "left",
+      "w": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": "we_are_cooked",
+   "name": "We are cooked",
+   "mood": "fail",
+   "what": "Handheld shake + 'we are so cooked' + sweating card. The scary-looking question before you show it is easy.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "rage_vibrate",
+     "at": 0,
+     "args": {
+      "sound": false,
+      "dur": 1.4,
+      "k": 0.7
+     }
+    },
+    {
+     "type": "sound",
+     "id": "we-are-cooked",
+     "at": 0.05
+    },
+    {
+     "type": "gif",
+     "id": "sweating",
+     "at": 0.1,
+     "args": {
+      "dur": 2.6,
+      "pos": "right",
+      "w": 420,
+      "cap": "{cap}"
+     }
+    }
+   ]
+  },
+  {
+   "id": "brainrot_chaos",
+   "name": "Brainrot chaos",
+   "mood": "chaos",
+   "what": "Earthquake + Tung Tung Tung Sahur dancing in. After a long ugly derivation / ln of ln / too many symbols at once.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "earthquake",
+     "at": 0,
+     "args": {
+      "k": 0.8,
+      "dur": 1.4
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "tung_tung_tung_sahur",
+     "at": 0.15,
+     "args": {
+      "pos": "right",
+      "w": 520,
+      "dur": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "aura_flex",
+   "name": "Aura flex (easy step)",
+   "mood": "cool",
+   "what": "Cinematic bars + aura-farming boat kid dancing. When a step is effortless or a shortcut saves time.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "cinematic_bars",
+     "at": 0,
+     "args": {
+      "sound": false,
+      "dur": 3.4
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "aura_farming_boat_kid",
+     "at": 0,
+     "args": {
+      "pos": "left",
+      "w": 700,
+      "dur": 3.4
+     }
+    }
+   ]
+  },
+  {
+   "id": "chill_given_value",
+   "name": "Chill guy: value is given",
+   "mood": "calm",
+   "what": "Chill guy walks in while the camera slowly pushes in. When the paper GIVES you a value (table, constant) — no panic needed.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "ken_burns",
+     "at": 0,
+     "args": {
+      "dur": 3,
+      "k": 0.6
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "chill_guy",
+     "at": 0,
+     "args": {
+      "pos": "right",
+      "w": 460,
+      "dur": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "absolute_cinema_answer",
+   "name": "Absolute cinema (final answer)",
+   "mood": "proud",
+   "what": "Zoom punch on the boxed answer, then 'ABSOLUTE CINEMA' card with its sting. A beautiful result or the end of a long sum.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "zoom_punch",
+     "at": 0,
+     "args": {
+      "dur": 0.9
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "absolute_cinema",
+     "at": 0.05,
+     "args": {
+      "pos": "right",
+      "w": 560,
+      "dur": 7.9,
+      "mute": true,
+      "enter": "cut"
+     }
+    },
+    {
+     "type": "sound",
+     "id": "absolute-cinema",
+     "at": 0.1,
+     "args": {
+      "dur": 8.1
+     }
+    }
+   ]
+  },
+  {
+   "id": "drake_compare",
+   "name": "Drake: wrong vs right",
+   "mood": "compare",
+   "what": "Whoosh + Drake meme with your two labels ({a} = wrong way, {b} = right way) + vine boom on the right one.",
+   "steps": [
+    {
+     "type": "sound",
+     "id": "whoosh-short",
+     "at": 0
+    },
+    {
+     "type": "photo",
+     "id": "drake-hotline-bling",
+     "at": 0,
+     "args": {
+      "labels": [
+       "{a}",
+       "{b}"
+      ],
+      "pos": "left",
+      "w": 480,
+      "dur": 4
+     }
+    },
+    {
+     "type": "sound",
+     "id": "vine-boom",
+     "at": 1.25
+    }
+   ]
+  },
+  {
+   "id": "sus_side_eye",
+   "name": "Sus side-eye",
+   "mood": "suspicious",
+   "what": "Red 'sus' grade + monkey side-eye. A trick question / an examiner trap.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "sus_red",
+     "at": 0,
+     "args": {
+      "cap": "{cap}"
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "monkey_side_eye",
+     "at": 0.3,
+     "args": {
+      "pos": "right",
+      "w": 560,
+      "dur": 2.4,
+      "mute": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "ending_to_be_continued",
+   "name": "Ending: To be continued",
+   "mood": "ending",
+   "what": "Freeze-gray + record scratch, then the JoJo 'To Be Continued' arrow with Roundabout. End of a part / the video.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "freeze_gray",
+     "at": 0,
+     "args": {
+      "cap": "{cap}",
+      "hold": true,
+      "dur": 3.4
+     }
+    },
+    {
+     "type": "greenscreen",
+     "id": "to_be_continued",
+     "at": 0.2,
+     "args": {
+      "pos": "full",
+      "dur": 3.2
+     }
+    }
+   ]
+  },
+  {
+   "id": "six_seven_number",
+   "name": "6 7 (number joke)",
+   "mood": "dumb",
+   "what": "Zoom punch on a 6 or 7 in the working + the '6 7' sound. Cheap but loved by students — max once per video.",
+   "steps": [
+    {
+     "type": "camfx",
+     "id": "zoom_punch",
+     "at": 0,
+     "args": {
+      "sound": false,
+      "dur": 0.8
+     }
+    },
+    {
+     "type": "sound",
+     "id": "six-seven",
+     "at": 0
+    }
+   ]
+  }
+ ]
+}

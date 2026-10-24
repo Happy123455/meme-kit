@@ -1,0 +1,72 @@
+{
+ "greenscreen:bombardiro_crocodilo": [
+  {
+   "sound": "bombardiro-crocodilo",
+   "score": 0.973,
+   "at": 0.0
+  }
+ ],
+ "greenscreen:cat_laughing": [
+  {
+   "sound": "cat-laugh",
+   "score": 0.952,
+   "at": 1.9
+  }
+ ],
+ "greenscreen:chill_guy": [
+  {
+   "sound": "chill-guy",
+   "score": 0.859,
+   "at": 0.0
+  }
+ ],
+ "greenscreen:directed_by_robert_b_weide": [
+  {
+   "sound": "curb-your-enthusiasm",
+   "score": 0.926,
+   "at": 0.0
+  }
+ ],
+ "greenscreen:emotional_damage_steven_he": [
+  {
+   "sound": "emotional-damage",
+   "score": 0.985,
+   "at": 14.12
+  }
+ ],
+ "greenscreen:joseph_vine_boom": [
+  {
+   "sound": "vine-thud",
+   "score": 0.912,
+   "at": 0.0
+  }
+ ],
+ "greenscreen:mission_passed_respect": [
+  {
+   "sound": "gta-mission-complete",
+   "score": 0.821,
+   "at": 0.0
+  }
+ ],
+ "greenscreen:moye_moye": [
+  {
+   "sound": "moye-moye",
+   "score": 0.957,
+   "at": 0.19
+  }
+ ],
+ "greenscreen:sad_hamster_violin": [
+  {
+   "sound": "sad-hamster",
+   "score": 0.979,
+   "at": 0.3
+  }
+ ],
+ "greenscreen:to_be_continued": [
+  {
+   "sound": "to-be-continued",
+   "score": 0.986,
+   "at": 5.46
+  }
+ ]
+}

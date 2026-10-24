@@ -1,0 +1,14 @@
+- `.media/audio/sfx/sfx_006.mp3`: "Football Crowd - Near miss Ooh 3 - Southampton Vs Hull at Saint Mary's Stadium.wav" by Quistard is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. Source: https://freesound.org/people/Quistard/sounds/237682
+- `assets/sfx/car-horn.mp3`: "2 Car Horns" by alukahn, CC BY 3.0. https://freesound.org/people/alukahn/sounds/144137
+- `assets/sfx/glass.mp3`: "Glass breaking" by Ruben_Uitenweerde, CC BY 3.0. https://freesound.org/people/Ruben_Uitenweerde/sounds/486166
+- `assets/sfx/train-horn.mp3`: "steam train horn 01" by eliasheuninck, CC BY 4.0. https://freesound.org/people/eliasheuninck/sounds/170464
+- `assets/sfx/fart.wav`: "LL-Q1860 (eng)-Vealhurl-farting" by Speaker: Vealhurl Recorder: Vealhurl, CC BY 4.0. https://commons.wikimedia.org/w/index.php?curid=194280087
+- `assets/sfx/spring.mp3`: "Cartoon_Falling....falling.mp3" by CGEffex, CC BY 4.0. https://freesound.org/people/CGEffex/sounds/89546
+- `assets/sfx/heartbeat.mp3`: "Heartbeat." by urupin, CC BY 4.0. https://freesound.org/people/urupin/sounds/92036
+- `assets/sfx/slide-whistle.mp3`: "Slide Whistle, Descending, B (H4n).wav" by InspectorJ, CC BY 4.0. https://freesound.org/people/InspectorJ/sounds/410803
+- `assets/sfx/plane.mp3`: "Fighter Jet 3" by sonically_sound, CC BY 4.0. https://freesound.org/people/sonically_sound/sounds/639839
+- `assets/sfx/bell.mp3`: "Bicycle bell 2.wav" by KeyKrusher, CC BY 4.0. https://freesound.org/people/KeyKrusher/sounds/173000
+- `assets/sfx/bubbles.mp3`: "Bubbling, Large, A.wav" by InspectorJ, CC BY 4.0. https://freesound.org/people/InspectorJ/sounds/398808
+- `assets/sfx/pour.mp3`: "Liquid pouring on floor 2" by JakLocke, CC BY 4.0. https://freesound.org/people/JakLocke/sounds/261378
+- `assets/sfx/sizzle.mp3`: "Sizzle(loop).wav" by EverHeat, CC BY 3.0. https://freesound.org/people/EverHeat/sounds/208748
+- `assets/sfx/wind.mp3`: "VOXMisc spinning wind whoosh" by jerry.berumen, CC BY 4.0. https://freesound.org/people/jerry.berumen/sounds/772867

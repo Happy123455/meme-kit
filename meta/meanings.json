@@ -1,0 +1,1312 @@
+{
+ "_moods": [
+  "shock",
+  "confusion",
+  "fail",
+  "success",
+  "sad",
+  "laugh",
+  "cool",
+  "suspicious",
+  "angry",
+  "waiting",
+  "hype",
+  "ending",
+  "warning",
+  "agree",
+  "disagree",
+  "thinking",
+  "money",
+  "chaos",
+  "cringe",
+  "proud",
+  "romance",
+  "dance",
+  "intro",
+  "calm",
+  "compare",
+  "pain",
+  "smart",
+  "dumb"
+ ],
+ "greenscreen": {
+  "the_rock_eyebrow_raise": [
+   "suspicious",
+   "The Rock slowly raises an eyebrow (vine boom). Use after a sus/questionable statement or a double-meaning line."
+  ],
+  "joseph_vine_boom": [
+   "shock",
+   "Cartoon kid turns with a vine boom. A sudden plot twist."
+  ],
+  "surprised_pikachu": [
+   "shock",
+   "Original Pokémon scene (not keyed, shows as a card). Obvious consequence surprises someone."
+  ],
+  "coffin_dance": [
+   "fail",
+   "Ghanaian pallbearers dancing with a coffin. Something is dead / failed / RIP (wrong answer, failed design)."
+  ],
+  "to_be_continued": [
+   "ending",
+   "JoJo 'To Be Continued' arrow + Roundabout music. End of a part/video; pair with a freeze-frame. Content starts at ~9.75 s (auto in-point)."
+  ],
+  "skull_emoji": [
+   "laugh",
+   "Skull face 💀 'I'm dead'. Something so funny/brutal it killed you."
+  ],
+  "spongebob_disappointed": [
+   "sad",
+   "SpongeBob sadly looking at a photo album (green window inside). Nostalgia / disappointment."
+  ],
+  "cat_vibing": [
+   "dance",
+   "Cat nodding to Ievan Polkka. Things are going smoothly, vibing."
+  ],
+  "dancing_toothless": [
+   "dance",
+   "Toothless dragon dancing. Celebration, silly happiness."
+  ],
+  "john_cena": [
+   "warning",
+   "John Cena 'Are you sure about that?'. Challenge a wrong idea / misconception."
+  ],
+  "man_laughing": [
+   "laugh",
+   "J. Jonah Jameson laughing hysterically. Mocking something ridiculous."
+  ],
+  "confused_travolta": [
+   "confusion",
+   "Travolta looking around confused. Lost, can't find the answer, empty result."
+  ],
+  "crying_cat": [
+   "sad",
+   "Screaming/dramatic kitten. Over-the-top reaction to pain or bad news."
+  ],
+  "hamster_stare": [
+   "shock",
+   "Startled hamster stares at camera. Awkward realization."
+  ],
+  "suspicious_cat": [
+   "suspicious",
+   "Cat with suspicious squint. Doubting a claim."
+  ],
+  "this_is_fine": [
+   "chaos",
+   "Dog drinking coffee in a burning room. Ignoring a disaster, everything on fire."
+  ],
+  "deal_with_it_glasses": [
+   "cool",
+   "Thug-life glasses drop with music. Confident flex, 'nailed it'."
+  ],
+  "thug_life_glasses": [
+   "cool",
+   "Thug life cap, glasses, chain drop in with music. Savage answer / flex."
+  ],
+  "mission_passed_respect": [
+   "success",
+   "GTA 'Mission Passed! Respect+'. Problem solved, correct answer."
+  ],
+  "wasted_gta": [
+   "fail",
+   "GTA 'WASTED' (keyed: only the red WASTED text over your shot). Total failure / wrong answer. For the full GTA look add camfx 'sad_mode' (grey) under it."
+  ],
+  "windows_error": [
+   "fail",
+   "Windows XP error popups multiplying. System overload, brain error, too much info."
+  ],
+  "among_us": [
+   "suspicious",
+   "Among Us character twerking. Sus, something doesn't add up."
+  ],
+  "sad_violin": [
+   "sad",
+   "Speaker icon + sad violin music (use mainly for the sound). Fake sympathy."
+  ],
+  "dramatic_chipmunk": [
+   "shock",
+   "Dramatic chipmunk turns. Sudden dramatic reveal."
+  ],
+  "awkward_monkey_puppet": [
+   "cringe",
+   "Monkey puppet looks away awkwardly (card). Caught, awkward silence."
+  ],
+  "megamind_no": [
+   "disagree",
+   "Megamind prison scene (card). 'No ___?' mocking lack of something."
+  ],
+  "giga_chad": [
+   "proud",
+   "Giga Chad appears with music (content from ~8.75 s). Ultimate strong/best option."
+  ],
+  "sigma_face": [
+   "cool",
+   "Patrick Bateman sigma smile. Smug, calculated, 'sigma move'."
+  ],
+  "huh_cat": [
+   "confusion",
+   "Huh cat. Pure confusion, 'what?'."
+  ],
+  "bonk": [
+   "angry",
+   "Hammer BONK. Punish a silly mistake / bad behaviour."
+  ],
+  "explosion": [
+   "chaos",
+   "Cartoon explosion (from ~2.5 s). Mind blown / it all blew up."
+  ],
+  "clapping": [
+   "agree",
+   "xQc clapping. Applause for a good point (or sarcastic)."
+  ],
+  "mind_blown": [
+   "smart",
+   "Galaxy brain glowing head (card). Big brain idea."
+  ],
+  "omg_wow": [
+   "shock",
+   "Man saying 'OMG wow'. Amazed by a fact."
+  ],
+  "nodding_guy": [
+   "agree",
+   "Jeremiah Johnson nod. Approval, 'correct'."
+  ],
+  "side_eye": [
+   "suspicious",
+   "Man on phone giving side eye. Judging silently."
+  ],
+  "hold_up_wait_a_minute": [
+   "thinking",
+   "'Hold up, wait a minute, something ain't right'. Spot the trick / exception."
+  ],
+  "oh_no_cringe": [
+   "cringe",
+   "'Oh no, cringe' stick figure. Embarrassing mistake."
+  ],
+  "sad_hamster_violin": [
+   "sad",
+   "Sad hamster staring with sad violin music (plain card). Peak pity — failed exam, wrong answer."
+  ],
+  "cat_laughing": [
+   "laugh",
+   "Cat laughing out loud (see-through). Laughing at a silly mistake."
+  ],
+  "monkey_driving": [
+   "chaos",
+   "Monkey frantically 'driving' a toy steering wheel. Out of control / panic driving / chaos."
+  ],
+  "michael_jackson_eating_popcorn": [
+   "laugh",
+   "MJ eating popcorn enjoying the drama (card). Watching someone's wrong method fail."
+  ],
+  "mr_incredible_becoming_uncanny": [
+   "warning",
+   "Mr Incredible's face slowly turns dark/creepy. Things get worse and worse (escalating bad news)."
+  ],
+  "darth_vader_noooo": [
+   "fail",
+   "Darth Vader 'NOOOO'. Dramatic despair at a mistake."
+  ],
+  "tom_shocked_face": [
+   "shock",
+   "Tom (Tom & Jerry) shocked reaction scene (card)."
+  ],
+  "emotional_damage_steven_he": [
+   "sad",
+   "Steven He 'EMOTIONAL DAMAGE!' (see-through, ~20 s — trim with dur). After a savage roast."
+  ],
+  "uncle_roger_haiyaa": [
+   "disagree",
+   "Uncle Roger 'Haiyaa' disappointed (card). Someone did it the wrong way."
+  ],
+  "bernie_i_am_once_again_asking": [
+   "hype",
+   "Bernie 'I am once again asking for your financial support' (see-through, caption included). Asking again / begging."
+  ],
+  "minion_laughing": [
+   "laugh",
+   "Purple evil minion laughing/screaming (see-through). Chaotic laugh."
+  ],
+  "ishowspeed_screaming": [
+   "shock",
+   "IShowSpeed staring then screaming (see-through). Over-the-top shock."
+  ],
+  "bully_maguire_dance": [
+   "cool",
+   "Bully Maguire (Spider-Man 3) strut dance (see-through). Overconfident flex."
+  ],
+  "mr_bean_shocked": [
+   "shock",
+   "Mr Bean as a surgeon peeking/grinning at camera (partly keyed). Awkward surprise."
+  ],
+  "streamer_rage_tyler1": [
+   "angry",
+   "Tyler1 raging at the camera (see-through). Pure rage at a mistake."
+  ],
+  "cat_thumbs_up": [
+   "agree",
+   "Cat with a human thumbs up (see-through). Approved / correct."
+  ],
+  "directed_by_robert_b_weide": [
+   "ending",
+   "Curb Your Enthusiasm end credits with music (black plain card, use pos=full). Awkward ending."
+  ],
+  "dog_side_eye": [
+   "suspicious",
+   "Dog side-eye looking away (see-through). Judging silently."
+  ],
+  "shocked_guy_hands_on_head": [
+   "shock",
+   "Guy grabbing his head in shock (see-through). Mind blown / disbelief."
+  ],
+  "hello_there_obi_wan": [
+   "intro",
+   "Obi-Wan 'Hello there' (see-through). Greeting / starting a topic."
+  ],
+  "this_is_sparta": [
+   "hype",
+   "Leonidas 'This is Sparta!' + kick (see-through). Epic emphasis / kicking out a wrong idea."
+  ],
+  "rasode_mein_kaun_tha": [
+   "suspicious",
+   "'Rasode mein kaun tha?' Kokilaben (card, Indian). Who did this? Investigating a mistake."
+  ],
+  "utha_le_re_baba_hera_pheri": [
+   "angry",
+   "Hera Pheri 'Utha le re baba' (see-through, Indian). Frustrated, can't take it anymore."
+  ],
+  "paisa_hi_paisa_hoga_hera_pheri": [
+   "money",
+   "Hera Pheri Raju laughing/crying (see-through, Indian). Money, cost, profit drama."
+  ],
+  "moye_moye": [
+   "sad",
+   "'Moye moye' sad song (card, Indian viral). Something just went wrong."
+  ],
+  "jethalal_shocked": [
+   "shock",
+   "Jethalal (TMKOC) shocked (see-through, Indian). Very relatable reaction."
+  ],
+  "bhai_kya_kar_raha_hai_tu": [
+   "dumb",
+   "Ashneer Grover 'Bhai kya kar raha hai tu?' (see-through, Indian). Bro, what are you doing?!"
+  ],
+  "goat_screaming": [
+   "chaos",
+   "Screaming goat (see-through). Panic / chaos."
+  ],
+  "spongebob_laughing": [
+   "laugh",
+   "SpongeBob, Patrick, Squidward, Mr Krabs laughing (card)."
+  ],
+  "monkey_side_eye": [
+   "suspicious",
+   "Monkey side-eye (see-through). Sus, awkward look."
+  ],
+  "tung_tung_tung_sahur": [
+   "chaos",
+   "Tung Tung Tung Sahur (Italian-brainrot wooden log with a bat) dancing. 2025 brainrot: absurd/nonsense moment, chaotic method, 'brain is rotting' after a long derivation."
+  ],
+  "aura_farming_boat_kid": [
+   "cool",
+   "Aura-farming boat kid (Pacu Jalur, 2025) dancing calmly on the boat prow. Effortless confidence: solved it smoothly, the easy step, flexing a shortcut."
+  ],
+  "absolute_cinema": [
+   "proud",
+   "Scorsese 'ABSOLUTE CINEMA' hands-up (card, not keyed). A perfect result, beautiful derivation, final answer reveal."
+  ],
+  "chill_guy": [
+   "calm",
+   "'Just a chill guy' (2024-25) dog in a sweater, hands in pockets. Unbothered: when the paper gives the value, when everyone panics but you know the trick."
+  ],
+  "black_cat_clapping": [
+   "success",
+   "Black cat standing up clapping (2026 viral). Applause for a correct step / the student who got it right. Card, not keyed."
+  ],
+  "gen_z_stare": [
+   "cool",
+   "Montage of actors' intense deadpan stares (Cillian Murphy, Saul, Gus, Walter White, Homelander). Silent judgement / 'you know what you did' after a classic mistake. Card, not keyed."
+  ],
+  "skibidi_toilet": [
+   "chaos",
+   "Skibidi Toilet head popping out of a toilet. Brainrot absurdity, something weird popping up unexpectedly; sanitary/drainage engineering jokes."
+  ],
+  "bombardiro_crocodilo": [
+   "chaos",
+   "Bombardiro Crocodilo (Italian brainrot crocodile-bomber plane). Incoming bombardment: a flood of formulas, the examiner dropping a hard question, air/transport topics."
+  ]
+ },
+ "gifs": {
+  "pikachu": [
+   "shock",
+   "Surprised Pikachu face (face crop). Obvious consequence surprise."
+  ],
+  "shocked_cat": [
+   "shock",
+   "Wide-eyed shocked cat (face crop)."
+  ],
+  "jim_carrey": [
+   "shock",
+   "Jim Carrey screaming OMG (face crop). Panic, extreme shock."
+  ],
+  "shocked_lady": [
+   "shock",
+   "Woman staring wide-eyed (face crop)."
+  ],
+  "side_eye_dog": [
+   "suspicious",
+   "Dog side-eye (face crop). Unimpressed, judging."
+  ],
+  "monkey_side": [
+   "cringe",
+   "Monkey puppet side look (face crop). Awkward."
+  ],
+  "math_lady": [
+   "confusion",
+   "Confused math lady with equations (face crop). Calculating, overthinking."
+  ],
+  "math_kid": [
+   "confusion",
+   "Kid squinting with formulas (face crop). Confused by maths."
+  ],
+  "crying_jordan": [
+   "sad",
+   "Crying Michael Jordan (face crop). Defeat, sadness."
+  ],
+  "mind_blown": [
+   "smart",
+   "Kramer mind blown. Amazed by an idea."
+  ],
+  "facepalm": [
+   "dumb",
+   "Steve Carell facepalm (face crop). Stupid mistake."
+  ],
+  "wait_what": [
+   "confusion",
+   "James Franco 'wait what'."
+  ],
+  "skeleton": [
+   "waiting",
+   "Skeleton waiting forever."
+  ],
+  "laugh": [
+   "laugh",
+   "Woman laughing hysterically (face crop)."
+  ],
+  "spongebob_confused": [
+   "confusion",
+   "Confused SpongeBob (face crop)."
+  ],
+  "travolta": [
+   "confusion",
+   "Confused Travolta looking around."
+  ],
+  "disappointed_fan": [
+   "sad",
+   "Disappointed Indian cricket fan, hands on hips. Very relatable letdown."
+  ],
+  "slow_clap": [
+   "agree",
+   "Slow clap (face crop). Sarcastic or genuine applause."
+  ],
+  "galaxy_brain": [
+   "smart",
+   "Galaxy brain man. 'Big brain' idea."
+  ],
+  "chipmunk": [
+   "shock",
+   "Dramatic chipmunk turn."
+  ],
+  "bruh": [
+   "dumb",
+   "'BRUH' guy on phone."
+  ],
+  "nodding": [
+   "agree",
+   "David Rose nodding (face crop). Approval."
+  ],
+  "take_my_money": [
+   "money",
+   "Fry 'Shut up and take my money'. Expensive / want it."
+  ],
+  "this_is_fine": [
+   "chaos",
+   "This is fine dog, animated."
+  ],
+  "sweating": [
+   "warning",
+   "Sweating Key & Peele (face crop). Nervous, pressure."
+  ],
+  "panic_bag": [
+   "warning",
+   "Sheldon breathing into a paper bag. Panic attack."
+  ],
+  "mr_bean_wait": [
+   "waiting",
+   "Mr Bean waiting in a field. Long wait (curing, loading, delay)."
+  ],
+  "no_god": [
+   "disagree",
+   "Michael Scott 'No, God, please no'. Dread, terrible outcome."
+  ],
+  "stonks": [
+   "money",
+   "Stonks meme man. Profit / gains / numbers going up."
+  ],
+  "deal_with_it": [
+   "cool",
+   "Doge with deal-with-it glasses (face crop)."
+  ],
+  "kermit_dance": [
+   "dance",
+   "Kermit flailing dance. Chaos dancing / celebration."
+  ],
+  "victory": [
+   "success",
+   "'VICTORY' celebration."
+  ],
+  "shrug": [
+   "confusion",
+   "Joey shrug. Whatever / I don't know."
+  ],
+  "cringe": [
+   "cringe",
+   "Michael Scott cringe face (face crop)."
+  ],
+  "amazed": [
+   "shock",
+   "Chris Pratt amazed (face crop). Pleasant surprise."
+  ],
+  "oh_no_cat": [
+   "warning",
+   "Cartoon cat 'oh no...'."
+  ],
+  "mic_drop": [
+   "proud",
+   "Obama mic drop. Perfect final point."
+  ],
+  "hmm_batman": [
+   "thinking",
+   "Batman 'hmm' thinking (face crop)."
+  ],
+  "evil_laugh": [
+   "laugh",
+   "Cartoon evil laugh in flames. Villain energy."
+  ],
+  "nervous_drink": [
+   "warning",
+   "Nervous man gulping water. Awkward pressure."
+  ],
+  "shocked_kid": [
+   "shock",
+   "Toddler shocked shrug (face crop). 'What?!'"
+  ],
+  "blinking_white_guy": [
+   "confusion",
+   "Drew Scanlon blinking in disbelief (face crop). 'Did I just hear that?' after a weird claim."
+  ],
+  "confused_nick_young": [
+   "confusion",
+   "Nick Young with question marks (face crop). Total confusion at a strange result."
+  ],
+  "michael_jackson_popcorn": [
+   "laugh",
+   "MJ eating popcorn (face crop). Enjoying the drama — watching a wrong method fail."
+  ],
+  "steve_harvey_shocked": [
+   "shock",
+   "Steve Harvey 'oh Lord' stare (face crop). Disbelief at a bad answer."
+  ],
+  "thinking_monkey": [
+   "thinking",
+   "Monkey with finger on lips (face crop). Thinking hard / hmm, wait."
+  ],
+  "kermit_sipping_tea": [
+   "suspicious",
+   "Kermit sipping tea (face crop). 'But that's none of my business' — sly hint."
+  ],
+  "elmo_shrug": [
+   "confusion",
+   "Elmo shrugging. 'I don't know / whatever'."
+  ],
+  "minion_laughing": [
+   "laugh",
+   "Minion laughing hysterically (face crop)."
+  ],
+  "cat_thumbs_up": [
+   "agree",
+   "Cat with a human thumbs up (face crop). OK, approved, correct."
+  ],
+  "sad_hamster": [
+   "sad",
+   "Sad hamster crying, cartoon (face crop). Pitiful sadness; pairs with sad-hamster / sad-violin sound."
+  ],
+  "leonardo_dicaprio_pointing": [
+   "agree",
+   "DiCaprio pointing at the TV. 'That's me / I recognise this!'"
+  ],
+  "jethalal": [
+   "shock",
+   "Jethalal (TMKOC) stunned (face crop). Very relatable Indian reaction to bad news."
+  ],
+  "mr_bean_shocked": [
+   "shock",
+   "Mr Bean shocked 'oh no' (face crop)."
+  ],
+  "baby_yoda_sipping": [
+   "calm",
+   "Baby Yoda sipping soup/tea (face crop). Calm, unbothered while chaos happens."
+  ],
+  "spongebob_mocking": [
+   "disagree",
+   "Mocking SpongeBob (face crop). Repeating a silly statement in mOcKiNg tone."
+  ],
+  "anime_crying": [
+   "sad",
+   "Anime girl crying waterfalls (face crop). Exam-stress crying."
+  ],
+  "dog_confused": [
+   "confusion",
+   "Black dog with shocked eyes (face crop)."
+  ],
+  "cat_staring": [
+   "suspicious",
+   "Cat staring dead into the camera (face crop). Silent judgement."
+  ],
+  "hera_pheri": [
+   "angry",
+   "Hera Pheri: 'maar ee sale ka khopdi tod' — angry Babu Bhaiya. Rage at a dumb mistake (Indian)."
+  ]
+ },
+ "sounds": {
+  "vine-boom": [
+   "shock",
+   "THE vine boom. Use on punch words, reveals, sus moments."
+  ],
+  "bruh": [
+   "dumb",
+   "'Bruh'. Silly mistake."
+  ],
+  "emotional-damage": [
+   "sad",
+   "'Emotional damage!' after a roast."
+  ],
+  "oh-no-no-no": [
+   "warning",
+   "'Oh no no no no' (tik tok). Bad incoming."
+  ],
+  "sad-violin": [
+   "sad",
+   "Tiny sad violin."
+  ],
+  "windows-xp-error": [
+   "fail",
+   "Windows error ding."
+  ],
+  "fbi-open-up": [
+   "warning",
+   "'FBI, open up!' suspicious line."
+  ],
+  "anime-wow": [
+   "shock",
+   "Anime 'waaow'."
+  ],
+  "mlg-airhorn": [
+   "hype",
+   "MLG air horn."
+  ],
+  "here-we-go-again": [
+   "fail",
+   "'Ah shit, here we go again'. Repeated problem."
+  ],
+  "censor-beep": [
+   "romance",
+   "Beep to censor a double meaning."
+  ],
+  "dun-dun-dun": [
+   "shock",
+   "Dramatic dun dun dun."
+  ],
+  "mission-failed": [
+   "fail",
+   "'Mission failed, we'll get em next time'."
+  ],
+  "curb-your-enthusiasm": [
+   "ending",
+   "Curb theme — awkward ending."
+  ],
+  "to-be-continued": [
+   "ending",
+   "Roundabout guitar 'to be continued'."
+  ],
+  "coffin-dance": [
+   "fail",
+   "Coffin dance (Astronomia)."
+  ],
+  "oof": [
+   "pain",
+   "Roblox oof."
+  ],
+  "yeet": [
+   "chaos",
+   "'Yeet!' throwing something."
+  ],
+  "nani": [
+   "shock",
+   "'Nani?!'"
+  ],
+  "huh-cat": [
+   "confusion",
+   "'Huh?' cat."
+  ],
+  "metal-pipe": [
+   "chaos",
+   "Metal pipe falling clang (very loud — use vol 0.3)."
+  ],
+  "spongebob-disappointed": [
+   "sad",
+   "SpongeBob disappointed sound."
+  ],
+  "why-are-you-running": [
+   "chaos",
+   "'Why are you running?'"
+  ],
+  "among-us-role-reveal": [
+   "suspicious",
+   "Among Us role reveal sting."
+  ],
+  "taco-bell-bong": [
+   "shock",
+   "Taco Bell bong — sudden fact."
+  ],
+  "rizz": [
+   "romance",
+   "Rizz sound effect — flirty line."
+  ],
+  "aughhh": [
+   "pain",
+   "'AUGHHH' (TikTok)."
+  ],
+  "sus": [
+   "suspicious",
+   "'Sus' sound."
+  ],
+  "rimshot": [
+   "laugh",
+   "Ba-dum-tss after a pun."
+  ],
+  "sad-trombone": [
+   "fail",
+   "Wah wah wah."
+  ],
+  "crickets": [
+   "cringe",
+   "Awkward silence."
+  ],
+  "wilhelm-scream": [
+   "pain",
+   "Classic scream."
+  ],
+  "sheesh": [
+   "cool",
+   "'Sheeesh' — impressive."
+  ],
+  "goofy-ahh": [
+   "dumb",
+   "Goofy cartoon sound."
+  ],
+  "bonk": [
+   "angry",
+   "Bonk."
+  ],
+  "boing": [
+   "laugh",
+   "Boing spring."
+  ],
+  "nope": [
+   "disagree",
+   "'Nope'."
+  ],
+  "noice": [
+   "agree",
+   "'Noice'."
+  ],
+  "hello-darkness-my-old-friend": [
+   "sad",
+   "Hello darkness — dramatic sadness."
+  ],
+  "thug-life": [
+   "cool",
+   "Thug life beat."
+  ],
+  "illuminati": [
+   "suspicious",
+   "Illuminati X-Files theme — conspiracy."
+  ],
+  "law-and-order": [
+   "warning",
+   "Law & Order dun-dun."
+  ],
+  "hitmarker": [
+   "success",
+   "Hitmarker — direct hit / correct."
+  ],
+  "wasted": [
+   "fail",
+   "GTA wasted."
+  ],
+  "mission-passed": [
+   "success",
+   "GTA mission passed."
+  ],
+  "drum-roll": [
+   "intro",
+   "Drum roll before a reveal."
+  ],
+  "ding-ding": [
+   "success",
+   "Ding ding — correct."
+  ],
+  "slap": [
+   "angry",
+   "Slap."
+  ],
+  "gasp": [
+   "shock",
+   "Crowd gasp."
+  ],
+  "laugh-track": [
+   "laugh",
+   "Sitcom laugh track."
+  ],
+  "awkward": [
+   "cringe",
+   "Awkward cough."
+  ],
+  "ohio": [
+   "dumb",
+   "'Only in Ohio' — weird thing."
+  ],
+  "skull": [
+   "laugh",
+   "Skull 💀 sound."
+  ],
+  "spiderman-meme": [
+   "laugh",
+   "Spider-Man meme song."
+  ],
+  "john-cena": [
+   "hype",
+   "John Cena entrance trumpet."
+  ],
+  "chipi-chipi": [
+   "dance",
+   "Chipi chipi chapa chapa cat."
+  ],
+  "faaah": [
+   "shock",
+   "'Faaah' reaction."
+  ],
+  "bombastic-side-eye": [
+   "suspicious",
+   "'Bombastic side eye'."
+  ],
+  "uwu": [
+   "romance",
+   "'UwU'."
+  ],
+  "ka-ching": [
+   "money",
+   "Cash register."
+  ],
+  "kids-yay": [
+   "success",
+   "Kids cheering 'yay'."
+  ],
+  "applause": [
+   "success",
+   "Applause."
+  ],
+  "boo": [
+   "disagree",
+   "Crowd boo."
+  ],
+  "record-scratch": [
+   "shock",
+   "Record scratch — freeze-frame 'yup, that's me'."
+  ],
+  "moye-moye": [
+   "sad",
+   "'Moye moye' — viral sad/fail song (Indian internet). Something goes wrong."
+  ],
+  "rasode-mein-kaun-tha": [
+   "suspicious",
+   "'Rasode mein kaun tha?' — who did it? Investigating a mistake (Indian)."
+  ],
+  "utha-le-re-baba": [
+   "angry",
+   "Hera Pheri 'Utha le re baba' — frustrated, take me away (Indian)."
+  ],
+  "haiyaa": [
+   "disagree",
+   "Uncle Roger 'Haiyaa' — disappointed at a wrong method."
+  ],
+  "directed-by-robert-b-weide": [
+   "ending",
+   "Curb-style 'Directed by Robert B. Weide' credits music — awkward ending."
+  ],
+  "darth-vader-nooo": [
+   "fail",
+   "Darth Vader 'NOOOO'."
+  ],
+  "wait-thats-illegal": [
+   "warning",
+   "'Wait, that's illegal' — breaking a rule/code."
+  ],
+  "sad-hamster": [
+   "sad",
+   "Sad hamster violin music."
+  ],
+  "bhai-kya-kar-raha-hai-tu": [
+   "dumb",
+   "'Bhai kya kar raha hai tu?' — bro, what are you doing (Indian)."
+  ],
+  "spongebob-boowomp": [
+   "fail",
+   "SpongeBob 'boo-womp' sad sound."
+  ],
+  "anime-ahh": [
+   "shock",
+   "Anime 'ahh' gasp."
+  ],
+  "oh-my-god-wow": [
+   "shock",
+   "'Oh my god, wow!'"
+  ],
+  "goat-scream": [
+   "chaos",
+   "Screaming goat."
+  ],
+  "cat-laugh": [
+   "laugh",
+   "Cat laughing."
+  ],
+  "minion-laugh": [
+   "laugh",
+   "Minion laugh."
+  ],
+  "dexter-meme": [
+   "warning",
+   "Dexter meme suspense music — plotting / scheming."
+  ],
+  "paisa-hi-paisa-hoga": [
+   "money",
+   "Hera Pheri 'Paisa hi paisa hoga' — money/cost talk (Indian)."
+  ],
+  "mr-bean": [
+   "laugh",
+   "Mr Bean theme/laugh."
+  ],
+  "hello-there": [
+   "intro",
+   "Obi-Wan 'Hello there' — greeting/intro."
+  ],
+  "this-is-sparta": [
+   "hype",
+   "'This is Sparta!' — epic emphasis."
+  ],
+  "tom-scream": [
+   "pain",
+   "Tom (Tom & Jerry) scream."
+  ],
+  "galaxy-brain": [
+   "smart",
+   "Galaxy-brain ascension sound."
+  ],
+  "vine-thud": [
+   "shock",
+   "Vine thud (alternate boom)."
+  ],
+  "fortnite-death": [
+   "fail",
+   "Fortnite elimination sound."
+  ],
+  "lego-yoda-death": [
+   "fail",
+   "LEGO Yoda death — comedic fail."
+  ],
+  "gta-mission-complete": [
+   "success",
+   "GTA San Andreas 'mission complete' music."
+  ],
+  "six-seven": [
+   "dumb",
+   "'6 7' (doot doot, 2025-26 kids' meme) — say it when a number is 6 or 7, or a 'so-so' answer."
+  ],
+  "tung-tung-tung-sahur": [
+   "chaos",
+   "'Tung tung tung sahur' chant — brainrot chaos, absurd step."
+  ],
+  "tralalero-tralala": [
+   "chaos",
+   "'Tralalero tralala' Italian-brainrot jingle — silly/nonsense moment."
+  ],
+  "jet2-holiday": [
+   "hype",
+   "'Nothing beats a Jet2 holiday!' (2025) — ironic hype before something goes wrong, or a 'vacation' (free marks)."
+  ],
+  "absolute-cinema": [
+   "proud",
+   "'Absolute cinema' music sting — perfect result, beautiful reveal."
+  ],
+  "oi-oi-oi": [
+   "laugh",
+   "'Oi oi oi' (red larva) laugh — teasing, mischief, a cheeky trick question."
+  ],
+  "get-out": [
+   "angry",
+   "Tuco 'GET OUT!' — throw out a wrong formula / wrong assumption."
+  ],
+  "chill-guy": [
+   "calm",
+   "'Just a chill guy' lo-fi — unbothered, easy step."
+  ],
+  "bombardiro-crocodilo": [
+   "chaos",
+   "'Bombardiro crocodilo' — incoming hard question, formula bombardment."
+  ],
+  "ballerina-cappuccina": [
+   "chaos",
+   "'Ballerina cappuccina' brainrot — light, silly twist."
+  ],
+  "aura-farming": [
+   "cool",
+   "Aura-farming song (Young Black & Rich) — effortless flex, smooth solution."
+  ],
+  "dhurandhar-ghar-mein-ghuske": [
+   "hype",
+   "Ranveer Singh 'ghar mein ghus ke…' (Dhurandhar, 2025) — attacking the hardest question head-on, Indian hype."
+  ],
+  "am-i-cooked": [
+   "fail",
+   "'Am I cooked?' — student realising they might fail / the exam is hard."
+  ],
+  "spongebob-fail": [
+   "fail",
+   "SpongeBob fail sting — small mistake."
+  ],
+  "we-are-cooked": [
+   "fail",
+   "'We are so cooked' — whole class is doomed, scary question."
+  ]
+ },
+ "photos": {
+  "drake-hotline-bling": [
+   "compare",
+   "Drake no / yes. Wrong way vs right way. Labels: [no-text, yes-text]."
+  ],
+  "no-yes": [
+   "compare",
+   "Drake no/yes with white panels."
+  ],
+  "two-buttons": [
+   "thinking",
+   "Sweating over two choices. Labels: [btn1, btn2, person]."
+  ],
+  "distracted-boyfriend": [
+   "compare",
+   "Distracted boyfriend: [new thing, person, old thing]."
+  ],
+  "uno-draw-25-cards": [
+   "disagree",
+   "Would rather draw 25 than do X."
+  ],
+  "always-has-been": [
+   "shock",
+   "'Wait, it's all X?' 'Always has been.'"
+  ],
+  "left-exit-12-off-ramp": [
+   "compare",
+   "Swerving to the exit: [straight, exit, car]."
+  ],
+  "anakin-padme-4-panel": [
+   "warning",
+   "'For the better, right?' — a hidden catch."
+  ],
+  "epic-handshake": [
+   "agree",
+   "Two things share one feature: [left, right, common]."
+  ],
+  "gru-s-plan": [
+   "fail",
+   "4-step plan that backfires on step 3/4."
+  ],
+  "disaster-girl": [
+   "chaos",
+   "Girl smiling at a burning house."
+  ],
+  "running-away-balloon": [
+   "sad",
+   "Being held back from a goal: [goal, person, obstacle]."
+  ],
+  "waiting-skeleton": [
+   "waiting",
+   "Waiting forever."
+  ],
+  "sad-pablo-escobar": [
+   "sad",
+   "Lonely waiting/sad."
+  ],
+  "x-x-everywhere": [
+   "chaos",
+   "'X, X everywhere'."
+  ],
+  "trade-offer": [
+   "money",
+   "Trade offer: [I receive, you receive]."
+  ],
+  "woman-yelling-at-cat": [
+   "angry",
+   "Argument: [angry claim, calm reply]."
+  ],
+  "change-my-mind": [
+   "proud",
+   "Hot take: 'X. Change my mind'."
+  ],
+  "batman-slapping-robin": [
+   "angry",
+   "Correcting a dumb statement: [robin says, batman says]."
+  ],
+  "is-this-a-pigeon": [
+   "confusion",
+   "Misidentifying: [object, person, 'is this X?']."
+  ],
+  "buff-doge-vs-cheems": [
+   "compare",
+   "Strong vs weak: [strong, weak]."
+  ],
+  "one-does-not-simply": [
+   "warning",
+   "'One does not simply…'."
+  ],
+  "expanding-brain": [
+   "smart",
+   "4 levels of enlightenment (dumb → genius)."
+  ],
+  "they-re-the-same-picture": [
+   "compare",
+   "Two things are actually the same."
+  ],
+  "mother-ignoring-kid-drowning-in-a-pool": [
+   "sad",
+   "Favouring one, ignoring a neglected other."
+  ],
+  "absolute-cinema": [
+   "proud",
+   "Masterpiece."
+  ],
+  "tuxedo-winnie-the-pooh": [
+   "proud",
+   "Plain vs fancy name for the same thing."
+  ],
+  "megamind-peeking": [
+   "thinking",
+   "'No X?' peeking."
+  ],
+  "this-is-fine": [
+   "chaos",
+   "Ignoring disaster."
+  ],
+  "hide-the-pain-harold": [
+   "pain",
+   "Smiling through pain."
+  ],
+  "roll-safe-think-about-it": [
+   "smart",
+   "Fake-smart logic hack."
+  ],
+  "clown-applying-makeup": [
+   "dumb",
+   "4 steps to becoming a clown."
+  ],
+  "panik-kalm-panik": [
+   "warning",
+   "Panic / calm / panic again."
+  ],
+  "sleeping-shaq": [
+   "compare",
+   "Ignoring vs waking up for: [boring, exciting]."
+  ],
+  "monkey-puppet": [
+   "cringe",
+   "Awkward look away."
+  ],
+  "two-guys-on-a-bus": [
+   "compare",
+   "Sad side vs happy side."
+  ],
+  "bike-fall": [
+   "dumb",
+   "Sabotaging yourself."
+  ],
+  "spider-man-triple": [
+   "compare",
+   "Same thing pointing at each other."
+  ],
+  "three-headed-dragon": [
+   "compare",
+   "Two serious, one silly."
+  ],
+  "bell-curve": [
+   "smart",
+   "Dumb and genius agree, midwit overthinks."
+  ],
+  "surprised-pikachu": [
+   "shock",
+   "Obvious consequence."
+  ],
+  "laughing-leo": [
+   "laugh",
+   "DiCaprio laughing."
+  ],
+  "leonardo-dicaprio-cheers": [
+   "success",
+   "Cheers / well done."
+  ],
+  "the-rock-driving": [
+   "shock",
+   "Rock driving, shocked at the reply."
+  ],
+  "gus-fring-we-are-not-the-same": [
+   "proud",
+   "'We are not the same'."
+  ],
+  "evil-kermit": [
+   "romance",
+   "Inner temptation."
+  ],
+  "flex-tape": [
+   "fail",
+   "Quick fix for a big problem."
+  ],
+  "bad-luck-brian": [
+   "fail",
+   "Bad luck story."
+  ],
+  "a-train-hitting-a-school-bus": [
+   "chaos",
+   "One thing destroys another."
+  ],
+  "inhaling-seagull": [
+   "shock",
+   "Building up to a scream."
+  ],
+  "scooby-doo-mask-reveal": [
+   "shock",
+   "Unmasking: it was X all along."
+  ],
+  "grant-gustin-over-grave": [
+   "laugh",
+   "Mocking a dead idea."
+  ],
+  "boardroom-meeting-suggestion": [
+   "fail",
+   "Good idea gets thrown out the window."
+  ],
+  "types-of-headaches-meme": [
+   "pain",
+   "Worst headache = X."
+  ],
+  "american-chopper-argument": [
+   "angry",
+   "Heated argument comic."
+  ],
+  "domino-effect": [
+   "chaos",
+   "Small thing causes huge chain."
+  ],
+  "pawn-stars-best-i-can-do": [
+   "money",
+   "Lowballing."
+  ],
+  "oprah-you-get-a": [
+   "hype",
+   "Everyone gets one!"
+  ],
+  "squidward-window": [
+   "sad",
+   "Watching others have fun."
+  ],
+  "imagination-spongebob": [
+   "smart",
+   "Imagination."
+  ],
+  "this-is-where-i-d-put-my-trophy-if-i-had": [
+   "fail",
+   "No trophy."
+  ],
+  "futurama-fry": [
+   "suspicious",
+   "'Not sure if X or Y'."
+  ],
+  "star-wars-yoda": [
+   "smart",
+   "Wise advice."
+  ],
+  "third-world-skeptical-kid": [
+   "suspicious",
+   "Skeptical."
+  ],
+  "y-all-got-any-more-of-that": [
+   "hype",
+   "Addicted, want more."
+  ],
+  "you-guys-are-getting-paid": [
+   "money",
+   "Unpaid work."
+  ],
+  "marked-safe-from": [
+   "success",
+   "Survived X today."
+  ],
+  "ancient-aliens": [
+   "thinking",
+   "'Aliens' — absurd explanation."
+  ],
+  "mocking-spongebob": [
+   "disagree",
+   "mOcKiNg a silly statement."
+  ],
+  "they-don-t-know": [
+   "proud",
+   "They don't know I'm X."
+  ],
+  "soldier-protecting-sleeping-child": [
+   "proud",
+   "Protecting something."
+  ],
+  "c-mon-do-something": [
+   "angry",
+   "Impatience."
+  ],
+  "is-this-butterfly": [
+   "confusion",
+   "Misidentifying (blank version)."
+  ],
+  "blank-nut-button": [
+   "hype",
+   "Pressing the button eagerly."
+  ],
+  "two-paths": [
+   "compare",
+   "Two paths choice."
+  ],
+  "grandma-finds-the-internet": [
+   "dumb",
+   "Old person discovers tech."
+  ],
+  "whisper-and-goosebumps": [
+   "shock",
+   "Whispered fact gives goosebumps."
+  ]
+ }
+}

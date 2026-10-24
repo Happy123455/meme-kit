@@ -1,0 +1,746 @@
+{
+ "pikachu": {
+  "n": 22,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 294,
+  "fps": 12,
+  "src": "Xd Pika GIF",
+  "gid": "CMPorjplUbhr71PPA7",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "shocked_cat": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 298,
+  "fps": 12,
+  "src": "Shock Disbelief GIF",
+  "gid": "XflGZKQF50eZROYAPL",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "jim_carrey": {
+  "n": 20,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 268,
+  "fps": 12,
+  "src": "Jim Carrey Omg GIF",
+  "gid": "jquDWJfPUMCiI",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "shocked_lady": {
+  "n": 18,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 232,
+  "fps": 12,
+  "src": "Shocked face wtf GIF",
+  "gid": "qz7fvG3ElTWA8",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "side_eye_dog": {
+  "n": 12,
+  "cols": 6,
+  "rows": 2,
+  "fw": 300,
+  "fh": 260,
+  "fps": 12,
+  "src": "Side Eye Dog Meme GIF by dnewmie",
+  "gid": "Wwn5NKv4At2CIc8XQa",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "monkey_side": {
+  "n": 28,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 398,
+  "fps": 12,
+  "src": "Suspicious Monkey GIF by MOODMAN",
+  "gid": "H5C8CevNMbpBqNqFjl",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "math_lady": {
+  "n": 14,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Confused Video Game GIF by Far Cry 6",
+  "gid": "PacQUjx7vwEBJLszzc",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "math_kid": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 332,
+  "fps": 12,
+  "src": "Calculating Figure It Out GIF",
+  "gid": "APqEbxBsVlkWSuFpth",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "crying_jordan": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 208,
+  "fps": 12,
+  "src": "Sad Michael Jordan GIF",
+  "gid": "26FPzgftlRfgwkEw0",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "mind_blown": {
+  "n": 23,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 212,
+  "fps": 12,
+  "src": "Cosmo Kramer Mind Blown GIF",
+  "gid": "OK27wINdQS5YQ"
+ },
+ "facepalm": {
+  "n": 37,
+  "cols": 6,
+  "rows": 7,
+  "fw": 300,
+  "fh": 214,
+  "fps": 12,
+  "src": "facepalm GIF",
+  "gid": "XD4qHZpkyUFfq",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "wait_what": {
+  "n": 30,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 158,
+  "fps": 12,
+  "src": "Confused James Franco GIF",
+  "gid": "tLql6mMHC6wvK"
+ },
+ "skeleton": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Bored Halloween GIF",
+  "gid": "GtJLSmozcdBZf0n6vD"
+ },
+ "laugh": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Mothers Day Lol GIF by reactionseditor",
+  "gid": "l0ExayQDzrI2xOb8A",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "spongebob_confused": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Confused Spongebob Squarepants GIF",
+  "gid": "3o7aCTPPm4OHfRLSH6",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "travolta": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Zurich Fhhwz GIF by HWZ Hochschule f\u00fcr Wirtschaft Z\u00fcrich",
+  "gid": "gfIIByUBhvy7AYwaqP"
+ },
+ "disappointed_fan": {
+  "n": 30,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 168,
+  "fps": 12,
+  "src": "Disappointed World Cup GIF by Goldmaster",
+  "gid": "evVKsrjZEqVVWvE2VR"
+ },
+ "slow_clap": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Excited Well Done GIF",
+  "gid": "9uoYC7cjcU6w8",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "galaxy_brain": {
+  "n": 16,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 182,
+  "fps": 12,
+  "src": "stress i need a drink GIF",
+  "gid": "2rqEdFfkMzXmo"
+ },
+ "chipmunk": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 266,
+  "fps": 12,
+  "src": "Dramatic Chipmunk What GIF",
+  "gid": "OPYnG3Xf8zLag"
+ },
+ "bruh": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 272,
+  "fps": 12,
+  "src": "Bruhh What GIF",
+  "gid": "NrqabhEpXWsGA"
+ },
+ "nodding": {
+  "n": 27,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 298,
+  "fps": 12,
+  "src": "Schitts Creek Yes GIF by CBC",
+  "gid": "3ohhwfwxg4d1h82LxS",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "take_my_money": {
+  "n": 21,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 168,
+  "fps": 12,
+  "src": "shut up and take my money GIF",
+  "gid": "yAYZnhvY3fflS"
+ },
+ "this_is_fine": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 168,
+  "fps": 12,
+  "src": "This Is Fine GIF",
+  "gid": "QMHoU66sBXqqLqYvGO"
+ },
+ "sweating": {
+  "n": 15,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "nervous k",
+  "gid": "3oz8xLlw6GHVfokaNW",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "panic_bag": {
+  "n": 22,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 276,
+  "fps": 12,
+  "src": "Nervous The Big Bang Theory GIF",
+  "gid": "1FMaabePDEfgk"
+ },
+ "mr_bean_wait": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 180,
+  "fps": 12,
+  "src": "Mr Bean Waiting GIF by MOODMAN",
+  "gid": "QBd2kLB5qDmysEXre9"
+ },
+ "no_god": {
+  "n": 20,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 220,
+  "fps": 12,
+  "src": "the office no GIF",
+  "gid": "1T96TRBBGYThC"
+ },
+ "stonks": {
+  "n": 13,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Game Stop GIF",
+  "gid": "YnkMcHgNIMW4Yfmjxr"
+ },
+ "deal_with_it": {
+  "n": 17,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 294,
+  "fps": 12,
+  "src": "Shiba Inu Deal With It GIF by slicedbread",
+  "gid": "ZIHPcum8vBonMjJSoM",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "kermit_dance": {
+  "n": 33,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 362,
+  "fps": 12,
+  "src": "Dance Dancing GIF",
+  "gid": "8m4R4pvViWtRzbloJ1"
+ },
+ "victory": {
+  "n": 19,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 170,
+  "fps": 12,
+  "src": "The Champions Win GIF",
+  "gid": "lnlAifQdenMxW"
+ },
+ "shrug": {
+  "n": 14,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 360,
+  "fps": 12,
+  "src": "Matt Leblanc Whatever GIF",
+  "gid": "G5X63GrrLjjVK"
+ },
+ "cringe": {
+  "n": 18,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 168,
+  "fps": 12,
+  "src": "The Office Smile GIF",
+  "gid": "9oF7EAvaFUOEU",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "amazed": {
+  "n": 23,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 162,
+  "fps": 12,
+  "src": "Amaze GIF",
+  "gid": "rVVFWyTINqG7C",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "oh_no_cat": {
+  "n": 35,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 208,
+  "fps": 12,
+  "src": "Shocked Oh No GIF",
+  "gid": "zpH08ZNYK5lizWWRTJ"
+ },
+ "mic_drop": {
+  "n": 34,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 218,
+  "fps": 12,
+  "src": "Barack Obama Mic Drop GIF",
+  "gid": "3o7qDSOvfaCO9b3MlO"
+ },
+ "hmm_batman": {
+  "n": 12,
+  "cols": 6,
+  "rows": 2,
+  "fw": 300,
+  "fh": 206,
+  "fps": 12,
+  "src": "Thinking Think GIF",
+  "gid": "a5viI92PAF89q",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "evil_laugh": {
+  "n": 29,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 166,
+  "fps": 12,
+  "src": "louise belcher laughing GIF",
+  "gid": "EJIqwKKY30Dlu"
+ },
+ "nervous_drink": {
+  "n": 22,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Scared 30 Rock GIF by HULU",
+  "gid": "3ohhwF34cGDoFFhRfy"
+ },
+ "shocked_kid": {
+  "n": 14,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 244,
+  "fps": 12,
+  "src": "Good Luck Charlie Idk GIF",
+  "gid": "ma7VlDSlty3EA",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "blinking_white_guy": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 364,
+  "fps": 12,
+  "src": "Excuse Me What GIF",
+  "gid": "RILsqUte1MME7TzQJ9",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "confused_nick_young": {
+  "n": 26,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 306,
+  "fps": 12,
+  "src": "Question Mark Wtf GIF",
+  "gid": "xL7PDV9frcudO",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "michael_jackson_popcorn": {
+  "n": 18,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 226,
+  "fps": 12,
+  "src": "Pop Corn GIF by FirstAndMonday",
+  "gid": "5xtDarm27LJsTNrwHBe",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "steve_harvey_shocked": {
+  "n": 23,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 248,
+  "fps": 12,
+  "src": "Oh Lord Wtf GIF",
+  "gid": "YmnQ1RRXJ2UGpX05TS",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "thinking_monkey": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 298,
+  "fps": 12,
+  "src": "Monkey Thinking GIF",
+  "gid": "4AwFO4f2VLo2fIFFA2",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "kermit_sipping_tea": {
+  "n": 26,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 234,
+  "fps": 12,
+  "src": "Kermit The Frog Tea GIF",
+  "gid": "AVpE6BqnOvbzi",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "elmo_shrug": {
+  "n": 18,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 170,
+  "fps": 12,
+  "src": "exactly GIF",
+  "gid": "qTsLIyLFEKKHK"
+ },
+ "minion_laughing": {
+  "n": 30,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Lmao Dispicable Me GIF",
+  "gid": "GfgW6K3PjKvtnc16IK",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "cat_thumbs_up": {
+  "n": 15,
+  "cols": 6,
+  "rows": 3,
+  "fw": 300,
+  "fh": 276,
+  "fps": 12,
+  "src": "Cat Ok GIF",
+  "gid": "rMEJyjch7L1tlRlCl3",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "sad_hamster": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 288,
+  "fps": 12,
+  "src": "Notpinkguy GIF",
+  "gid": "OEHZa92u7ihCH9hOKO",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "leonardo_dicaprio_pointing": {
+  "n": 22,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Leonardo Dicaprio Look GIF by Once Upon A Time In Hollywood",
+  "gid": "kd9BlRovbPOykLBMqX"
+ },
+ "jethalal": {
+  "n": 32,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Taarak Mehta Ka Ooltah Chashmah Tmkoc GIF by Chibi Samosa",
+  "gid": "YoOM0hliors7cLsgmk",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "mr_bean_shocked": {
+  "n": 25,
+  "cols": 6,
+  "rows": 5,
+  "fw": 300,
+  "fh": 232,
+  "fps": 12,
+  "src": "Oh No Reaction GIF by Huptech Web",
+  "gid": "L3QT1L99qG7M6gFRpM",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "baby_yoda_sipping": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Sipping Tea Time GIF",
+  "gid": "Wn74RUT0vjnoU98Hnt",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "spongebob_mocking": {
+  "n": 7,
+  "cols": 6,
+  "rows": 2,
+  "fw": 300,
+  "fh": 300,
+  "fps": 12,
+  "src": "Mocking Spongebob Squarepants GIF",
+  "gid": "QUXYcgCwvCm4cKcrI3",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "anime_crying": {
+  "n": 11,
+  "cols": 6,
+  "rows": 2,
+  "fw": 300,
+  "fh": 278,
+  "fps": 12,
+  "src": "Sad Cry GIF",
+  "gid": "CFJzEKHnTknlqG01Hr",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "dog_confused": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 398,
+  "fps": 12,
+  "src": "Shocked Eyes GIF by MOODMAN",
+  "gid": "FY8c5SKwiNf1EtZKGs",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "cat_staring": {
+  "n": 22,
+  "cols": 6,
+  "rows": 4,
+  "fw": 300,
+  "fh": 400,
+  "fps": 12,
+  "src": "Cat Meow GIF",
+  "gid": "C7grnU4M3o5on6ALso",
+  "face": {
+   "fw": 160,
+   "fh": 160
+  }
+ },
+ "hera_pheri": {
+  "n": 36,
+  "cols": 6,
+  "rows": 6,
+  "fw": 300,
+  "fh": 238,
+  "fps": 12,
+  "src": "Hera Pheri GIF",
+  "gid": "IDKH49sQRu3vw7pkOK"
+ }
+}

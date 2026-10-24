@@ -1,0 +1,16 @@
+/* MemeKit overlays — load once in your root composition. Fonts ship with the kit. */
+@font-face { font-family: "MK Archivo Black"; src: url("fonts/ArchivoBlack-Regular.ttf"); }
+@font-face { font-family: "MK Poppins"; src: url("fonts/Poppins-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "MK Poppins"; src: url("fonts/Poppins-ExtraBold.ttf"); font-weight: 800; }
+.mk-meme .mk-in { position: absolute; background: #fff; padding: 16px; border-radius: 20px; border: 5px solid #1d2030; box-shadow: 0 24px 60px rgba(20, 22, 40, 0.35); }
+.mk-cap { font-family: "MK Poppins"; font-weight: 800; font-size: 34px; line-height: 1.18; padding: 4px 8px 14px; color: #1d2030; }
+.mk-cap b { color: #d6213a; }
+.mk-img { position: relative; overflow: hidden; border-radius: 10px; }
+.mk-img img { display: block; width: 100%; height: auto; }
+.mk-sheet { border-radius: 10px; background-repeat: no-repeat; background-position: 0% 0%; }
+.mk-lab { position: absolute; display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.05; font-family: "MK Archivo Black";
+  color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill; text-transform: uppercase; }
+.mk-lab.mk-dark { color: #111; -webkit-text-stroke: 0; font-family: "MK Poppins"; font-weight: 800; text-transform: none; }
+.mk-gs { position: absolute; transform-origin: 50% 100%; }
+.mk-gs video { width: 100%; height: 100%; object-fit: contain; display: block; }
+.mk-gs.mk-card { background: #fff; padding: 10px; border: 5px solid #1d2030; border-radius: 18px; box-shadow: 0 24px 60px rgba(20, 22, 40, 0.35); }
